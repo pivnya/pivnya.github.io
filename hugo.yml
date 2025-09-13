@@ -3,6 +3,7 @@ title: pivnya.cool
 pagination.pagerSize: 5
 theme: papermod
 
+enableEmoji: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -15,49 +16,25 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: pivnya.cool
-  description: "pivnya.cool description"
-  keywords: [Blog, Portfolio, PaperMod]
   author: pivnoy_chel
-  # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light
-  disableThemeToggle: false
+  disableThemeToggle: true
 
-  ShowReadingTime: true
-  ShowShareButtons: false
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: false
-  tocopen: false
 
-  assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
-
-  label:
-    text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
-
-  # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+  profileMode:
+    enabled: true
+    title: "HAI HELLO HIII HAI" # optional default will be site title
+    subtitle: "This is my personal site for all the stuff related to my online activity. Have fun!"
+    imageUrl: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.healthshots.com%2Fhealthshots%2Fen%2Fuploads%2F2023%2F04%2F23113556%2Fsadness.jpg&f=1&nofb=1&ipt=4db1f9c94eb1e4411a6e63aa8768408be932c67ac993f4db5b79885a3255642a" # optional
+    imageTitle: "pivnoy_chel" # optional
+    imageWidth: 480 # custom size
+    imageHeight: 480 # custom size
+    buttons:
+      - name: Archive
+        url: "/archive"
+      - name: Github
+        url: "https://github.com/"
 
   socialIcons:
     - name: x
@@ -66,11 +43,6 @@ params:
       url: "https://stackoverflow.com"
     - name: github
       url: "https://github.com/"
-
-  cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
 
   # for search
   # https://fusejs.io/api/options.html
@@ -83,21 +55,30 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
+  
 
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: archive
+      name: Archive
+      url: /archives/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+
+    - identifier: reviews
+      name: Reviews
+      url: /reviews/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+
+    - identifier: tags
+      name: Tags
+      url: /tags/
       weight: 30
+
+    - identifier: twitch
+      name: twitch.tv
+      url: https://www.twitch.tv/pivnoy_chel
+      weight: 50
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

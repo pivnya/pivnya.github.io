@@ -8,6 +8,7 @@ author: "mochi"
 draft: false
 table-of-contents: true
 toc-auto-numbering: true
+favorite: true
 ---
 <!-- introduction -->
 ## TEST INTRODUCTION

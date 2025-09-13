@@ -1,0 +1,10 @@
+.home-grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 2rem; margin-top: 2rem; }
+.links-stack { display: grid; gap: 1.25rem; }
+.links-table table { width: 100%; border-collapse: collapse; }
+.links-table th, .links-table td { padding: .5rem .4rem; border-bottom: 1px solid rgba(127,127,127,.28); vertical-align: top; }
+.links-table th { font-size: .875rem; text-transform: uppercase; letter-spacing: .02em; opacity: .7; text-align: left; }
+.section-title { margin: 0 0 .5rem; }
+.sidebar { display: grid; gap: 1.25rem; align-content: start; }
+.sidebar ul { margin: 0; padding-inline-start: 1rem; }
+.muted { opacity: .7; }
+@media (max-width: 860px) { .home-grid { grid-template-columns: 1fr; } }

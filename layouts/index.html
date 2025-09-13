@@ -1,0 +1,84 @@
+{{ define "main" }}
+  <div class="profile-home">
+    {{ if and (site.Params.profileMode) (site.Params.profileMode.enabled) }}
+      {{ if templates.Exists "partials/indexProfile.html" }}
+        {{ partial "indexProfile.html" . }}
+      {{ else }}
+        <header class="profile-fallback">
+          <div class="profile-inner">
+            {{ with site.Params.profileMode.imageUrl }}
+              <img src="{{ . }}" alt="{{ site.Params.profileMode.imageTitle }}" width="{{ site.Params.profileMode.imageWidth }}" height="{{ site.Params.profileMode.imageHeight }}" />
+            {{ end }}
+            <h1>{{ or site.Params.profileMode.title site.Title }}</h1>
+            {{ with site.Params.profileMode.subtitle }}<p>{{ . }}</p>{{ end }}
+          </div>
+        </header>
+      {{ end }}
+    {{ end }}
+
+    <div class="home-grid">
+        <div class="links-stack">
+          {{ $tables := site.Data.home.tables }}
+          {{ with $tables.tables }}
+            {{ range . }}
+              <section class="links-table">
+                <h3 class="section-title">{{ .title }}</h3>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Link</th>
+                      <th>Description</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  {{ range .rows }}
+                    <tr>
+                      <td><a href="{{ .url }}">{{ or .text .url }}</a></td>
+                      <td>{{ .description }}</td>
+                    </tr>
+                  {{ end }}
+                  </tbody>
+                </table>
+              </section>
+            {{ end }}
+          {{ else }}
+            <p class="muted">No tables :(</p>
+          {{ end }}
+      </div>
+
+      <aside class="sidebar">
+        <section>
+          <h3 class="section-title">Selected posts! 😝</h3>
+          <ul>
+            {{ $fav := slice }}
+            {{ with site.Params.home.favorites }}
+              {{ range . }}
+                {{ with site.GetPage . }}
+                  {{ $fav = $fav | append . }}
+                {{ end }}
+              {{ end }}
+            {{ else }}
+              {{ $fav = where site.RegularPages ".Params.favorite" true }}
+            {{ end }}
+            {{ range $fav }}
+              <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+            {{ else }}
+              <li class="muted">No selected posts yet...</li>
+            {{ end }}
+          </ul>
+        </section>
+
+        <section>
+          <h3 class="section-title">Latest 🍋</h3>
+          <ul>
+            {{ range first 5 ( sort site.RegularPages "Date" "desc" ) }}
+              <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+            {{ else }}
+              <li class="muted">No posts yet.</li>
+            {{ end }}
+          </ul>
+        </section>
+      </aside>
+    </div>
+  </div>
+{{ end }}

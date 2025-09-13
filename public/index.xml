@@ -4,11 +4,6 @@
     <title>pivnya.cool</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on pivnya.cool</description>
-    <image>
-      <title>pivnya.cool</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
     <generator>Hugo -- 0.149.1</generator>
     <language>en</language>
     <lastBuildDate>Sat, 01 Feb 2025 10:00:00 -0300</lastBuildDate>
@@ -20,6 +15,13 @@
       <guid>http://localhost:1313/posts/new-post/</guid>
       <description>&lt;h2 id=&#34;test-introduction&#34;&gt;TEST INTRODUCTION&lt;/h2&gt;
 &lt;p&gt;meow&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reviews</title>
+      <link>http://localhost:1313/reviews/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/reviews/</guid>
+      <description>reviews</description>
     </item>
   </channel>
 </rss>
