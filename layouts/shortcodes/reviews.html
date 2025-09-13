@@ -18,8 +18,7 @@
           <th>Name</th>
           <th>Image</th>
           <th>Score</th>
-          <th>Excerpt (first 50 words)</th>
-          <th>Link</th>
+          <th>Review</th>
         </tr>
       </thead>
       <tbody>
@@ -38,11 +37,6 @@
           {{- end -}}
           {{- $cover = $cover | default (index ($p.Params.images | default slice) 0) -}}
 
-          {{- $rawText := default (plainify $p.Content) (plainify $p.Summary) -}}
-          {{- $cleanText := replaceRE `\s+` " " (trim $rawText " ") -}}
-          {{- $words := split $cleanText " " -}}
-          {{- $excerpt := delimit (first 50 $words) " " -}}
-          {{- if gt (len $words) 50 -}}{{- $excerpt = printf "%s&hellip;" $excerpt -}}{{- end -}}
 
           <tr>
             <td>{{ $i }}</td>
@@ -53,8 +47,7 @@
               {{- else -}}&mdash;{{- end -}}
             </td>
             <td>{{ $score }}</td>
-            <td>{{ $excerpt }}&hellip;</td>
-            <td><a href="{{ $url }}">Read</a></td>
+            <td>{{ plainify .Content | strings.Truncate 50 }} <a href="{{ $url }}">click here!</a> </td>
           </tr>
         {{- end -}}
       </tbody>
@@ -63,7 +56,6 @@
 {{- end -}}
 
 {{- if $tagsParam -}}
-  {{- /* Fixed tag parsing - replace transform.StringSlice with manual splitting */ -}}
   {{- $wanted := slice -}}
   {{- range (split $tagsParam ",") -}}
     {{- $wanted = $wanted | append (trim . " ") -}}
@@ -72,7 +64,6 @@
     {{- template "renderTagTable" (dict "name" $t "reviews" $reviews) -}}
   {{- end -}}
 {{- else -}}
-  {{- /* Collect all unique tags when no specific tags are provided */ -}}
   {{- $allTags := slice -}}
   {{- range $reviews -}}
     {{- with .Params.tags -}}

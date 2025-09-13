@@ -36,5 +36,26 @@
       <guid>http://localhost:1313/tags/meow/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Games, Music</title>
+      <link>http://localhost:1313/tags/games-music/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/games-music/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Music, Games</title>
+      <link>http://localhost:1313/tags/music-games/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/music-games/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Music, Games, Music</title>
+      <link>http://localhost:1313/tags/music-games-music/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/music-games-music/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
