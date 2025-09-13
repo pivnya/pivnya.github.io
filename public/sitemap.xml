@@ -5,10 +5,10 @@
     <loc>https://pivnya.cool/tags/meow/</loc>
     <lastmod>2025-02-01T10:00:00-03:00</lastmod>
   </url><url>
-    <loc>https://pivnya.cool/</loc>
+    <loc>https://pivnya.cool/posts/new-post/</loc>
     <lastmod>2025-02-01T10:00:00-03:00</lastmod>
   </url><url>
-    <loc>https://pivnya.cool/posts/new-post/</loc>
+    <loc>https://pivnya.cool/</loc>
     <lastmod>2025-02-01T10:00:00-03:00</lastmod>
   </url><url>
     <loc>https://pivnya.cool/posts/</loc>
@@ -17,6 +17,10 @@
     <loc>https://pivnya.cool/tags/</loc>
     <lastmod>2025-02-01T10:00:00-03:00</lastmod>
   </url><url>
+    <loc>https://pivnya.cool/archives/</loc>
+  </url><url>
     <loc>https://pivnya.cool/categories/</loc>
+  </url><url>
+    <loc>https://pivnya.cool/search/</loc>
   </url>
 </urlset>

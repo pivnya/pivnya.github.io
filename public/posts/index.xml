@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>Posts on pivnya.cool</title>
     <link>https://pivnya.cool/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
+    <description>Recent content in Posts on pivnya.cool</description>
+    <image>
+      <title>pivnya.cool</title>
+      <url>https://pivnya.cool/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://pivnya.cool/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.149.1</generator>
+    <language>en</language>
     <lastBuildDate>Sat, 01 Feb 2025 10:00:00 -0300</lastBuildDate>
     <atom:link href="https://pivnya.cool/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +18,8 @@
       <link>https://pivnya.cool/posts/new-post/</link>
       <pubDate>Sat, 01 Feb 2025 10:00:00 -0300</pubDate>
       <guid>https://pivnya.cool/posts/new-post/</guid>
-      <description>&lt;h2 id=&#34;meow&#34;&gt;meow&lt;/h2&gt;&#xA;&lt;p&gt;meow&amp;hellip; meow rawr, meow meow meow!&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;test-introduction&#34;&gt;TEST INTRODUCTION&lt;/h2&gt;
+&lt;p&gt;meow&amp;hellip;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
