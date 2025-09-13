@@ -1,3 +1,6 @@
 [submodule "themes/neopost"]
 	path = themes/neopost
 	url = https://github.com/salatine/neopost.git
+[submodule "themes/papermod"]
+	path = themes/papermod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
