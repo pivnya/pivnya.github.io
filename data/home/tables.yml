@@ -1,14 +1,14 @@
 tables:
-  - title: "LINKS"
+  - title: "Check These Out"
     rows:
       - text: "My GitHub"
         url: "https://github.com/yourname"
-        description: "Code & projects"
+        description: "Code & projects projects projects projects projects"
       - text: "Personal Wiki"
         url: "https://wiki.example.com"
         description: "Notes and docs"
 
-  - title: "RESOURCES"
+  - title: "Fun Stuff"
     rows:
       - text: "Awesome Hugo"
         url: "https://gohugo.io/"

@@ -6,8 +6,6 @@ title-images: ["/photo6.png",]
 ending-images: []
 author: "mochi"
 draft: false
-table-of-contents: true
-toc-auto-numbering: true
 favorite: true
 ---
 <!-- introduction -->

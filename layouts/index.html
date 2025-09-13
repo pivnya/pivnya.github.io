@@ -24,12 +24,6 @@
               <section class="links-table">
                 <h3 class="section-title">{{ .title }}</h3>
                 <table>
-                  <thead>
-                    <tr>
-                      <th>Link</th>
-                      <th>Description</th>
-                    </tr>
-                  </thead>
                   <tbody>
                   {{ range .rows }}
                     <tr>
@@ -48,7 +42,7 @@
 
       <aside class="sidebar">
         <section>
-          <h3 class="section-title">Selected posts! 😝</h3>
+          <h3 class="section-title">Selected Posts</h3>
           <ul>
             {{ $fav := slice }}
             {{ with site.Params.home.favorites }}
@@ -69,9 +63,9 @@
         </section>
 
         <section>
-          <h3 class="section-title">Latest 🍋</h3>
+          <h3 class="section-title">Latest Posts</h3>
           <ul>
-            {{ range first 5 ( sort site.RegularPages "Date" "desc" ) }}
+            {{ range first 5 (where site.RegularPages "Type" "posts").ByDate }}
               <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
             {{ else }}
               <li class="muted">No posts yet.</li>
