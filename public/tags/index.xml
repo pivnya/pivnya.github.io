@@ -2,59 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on pivnya.cool</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://pivnya.cool/tags/</link>
     <description>Recent content in Tags on pivnya.cool</description>
     <generator>Hugo -- 0.149.1</generator>
     <language>en</language>
     <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pivnya.cool/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Funny</title>
-      <link>http://localhost:1313/tags/funny/</link>
+      <link>https://pivnya.cool/tags/funny/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/funny/</guid>
+      <guid>https://pivnya.cool/tags/funny/</guid>
       <description></description>
     </item>
     <item>
       <title>Games</title>
-      <link>http://localhost:1313/tags/games/</link>
+      <link>https://pivnya.cool/tags/games/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/games/</guid>
+      <guid>https://pivnya.cool/tags/games/</guid>
       <description></description>
     </item>
     <item>
       <title>Music</title>
-      <link>http://localhost:1313/tags/music/</link>
+      <link>https://pivnya.cool/tags/music/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/music/</guid>
+      <guid>https://pivnya.cool/tags/music/</guid>
       <description></description>
     </item>
     <item>
       <title>Meow</title>
-      <link>http://localhost:1313/tags/meow/</link>
+      <link>https://pivnya.cool/tags/meow/</link>
       <pubDate>Sat, 01 Feb 2025 10:00:00 -0300</pubDate>
-      <guid>http://localhost:1313/tags/meow/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Games, Music</title>
-      <link>http://localhost:1313/tags/games-music/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/games-music/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Music, Games</title>
-      <link>http://localhost:1313/tags/music-games/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/music-games/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Music, Games, Music</title>
-      <link>http://localhost:1313/tags/music-games-music/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/music-games-music/</guid>
+      <guid>https://pivnya.cool/tags/meow/</guid>
       <description></description>
     </item>
   </channel>

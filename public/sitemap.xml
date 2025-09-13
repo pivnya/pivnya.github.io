@@ -2,9 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://pivnya.cool/categories/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
+<<<<<<< HEAD
     <loc>http://localhost:1313/tags/funny/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -15,33 +16,49 @@
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/music/</loc>
+=======
+    <loc>https://pivnya.cool/tags/funny/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://pivnya.cool/tags/games/</loc>
+>>>>>>> 4ee5662 (Latest posts fix)
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://pivnya.cool/posts/new-post-copy/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/reviews/</loc>
+    <loc>https://pivnya.cool/tags/music/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/new-post-copy-2/</loc>
+    <loc>https://pivnya.cool/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://pivnya.cool/posts/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+<<<<<<< HEAD
     <loc>http://localhost:1313/tags/</loc>
+=======
+    <loc>https://pivnya.cool/categories/reviews/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/meow/</loc>
+    <loc>https://pivnya.cool/posts/new-post-copy-2/</loc>
+>>>>>>> 4ee5662 (Latest posts fix)
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pivnya.cool/tags/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pivnya.cool/tags/meow/</loc>
     <lastmod>2025-02-01T10:00:00-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/new-post/</loc>
+    <loc>https://pivnya.cool/posts/new-post/</loc>
     <lastmod>2025-02-01T10:00:00-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://pivnya.cool/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/reviews/</loc>
+    <loc>https://pivnya.cool/reviews/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://pivnya.cool/search/</loc>
   </url>
 </urlset>

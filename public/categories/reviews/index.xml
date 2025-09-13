@@ -2,14 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Reviews on pivnya.cool</title>
-    <link>http://localhost:1313/categories/reviews/</link>
+    <link>https://pivnya.cool/categories/reviews/</link>
     <description>Recent content in Reviews on pivnya.cool</description>
     <generator>Hugo -- 0.149.1</generator>
     <language>en</language>
     <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/reviews/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pivnya.cool/categories/reviews/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Music</title>
+<<<<<<< HEAD
       <link>http://localhost:1313/posts/new-post-copy/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/new-post-copy/</guid>
@@ -18,10 +19,23 @@
     <item>
       <title>Superb Game XYZ — Review</title>
       <link>http://localhost:1313/posts/new-post-copy-2/</link>
+=======
+      <link>https://pivnya.cool/posts/new-post-copy/</link>
+>>>>>>> 4ee5662 (Latest posts fix)
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/new-post-copy-2/</guid>
+      <guid>https://pivnya.cool/posts/new-post-copy/</guid>
+      <description></description>
+    </item>
+<<<<<<< HEAD
+=======
+    <item>
+      <title>Superb Game XYZ — Review</title>
+      <link>https://pivnya.cool/posts/new-post-copy-2/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://pivnya.cool/posts/new-post-copy-2/</guid>
       <description>&lt;h2 id=&#34;test-introduction&#34;&gt;TEST INTRODUCTION&lt;/h2&gt;
 &lt;p&gt;meow&amp;hellip;&lt;/p&gt;</description>
     </item>
+>>>>>>> 4ee5662 (Latest posts fix)
   </channel>
 </rss>
