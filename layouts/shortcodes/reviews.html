@@ -1,0 +1,89 @@
+{{- $category := .Get "category" | default "Reviews" -}}
+{{- $tagsParam := .Get "tags" | default "" -}}
+
+{{- $reviews := where .Site.RegularPages "Params.categories" "intersect" (slice $category) -}}
+
+{{- define "renderTagTable" -}}
+  {{- $name := .name -}}
+  {{- $reviews := .reviews -}}
+
+  {{- $filtered := where $reviews "Params.tags" "intersect" (slice $name) -}}
+  {{- if gt (len $filtered) 0 -}}
+    {{- $filtered = sort $filtered "Date" "desc" -}}
+    <h2 id="{{ anchorize $name }}">{{ $name }}</h2>
+    <table class="reviews-table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Image</th>
+          <th>Score</th>
+          <th>Excerpt (first 50 words)</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{- $i := 0 -}}
+        {{- range $p := $filtered -}}
+          {{- $i = add $i 1 -}}
+
+          {{- $title := $p.Title -}}
+          {{- $url := $p.RelPermalink -}}
+
+          {{- $score := $p.Params.score | default "" -}}
+
+          {{- $cover := "" -}}
+          {{- with $p.Params.cover -}}
+            {{- $cover = .image -}}
+          {{- end -}}
+          {{- $cover = $cover | default (index ($p.Params.images | default slice) 0) -}}
+
+          {{- $rawText := default (plainify $p.Content) (plainify $p.Summary) -}}
+          {{- $cleanText := replaceRE `\s+` " " (trim $rawText " ") -}}
+          {{- $words := split $cleanText " " -}}
+          {{- $excerpt := delimit (first 50 $words) " " -}}
+          {{- if gt (len $words) 50 -}}{{- $excerpt = printf "%s&hellip;" $excerpt -}}{{- end -}}
+
+          <tr>
+            <td>{{ $i }}</td>
+            <td><a href="{{ $url }}">{{ $title }}</a></td>
+            <td>
+              {{- if $cover -}}
+                <img src="{{ $cover | relURL }}" alt="{{ $title }}" loading="lazy" style="max-width:120px;height:auto;">
+              {{- else -}}&mdash;{{- end -}}
+            </td>
+            <td>{{ $score }}</td>
+            <td>{{ $excerpt }}&hellip;</td>
+            <td><a href="{{ $url }}">Read</a></td>
+          </tr>
+        {{- end -}}
+      </tbody>
+    </table>
+  {{- end -}}
+{{- end -}}
+
+{{- if $tagsParam -}}
+  {{- /* Fixed tag parsing - replace transform.StringSlice with manual splitting */ -}}
+  {{- $wanted := slice -}}
+  {{- range (split $tagsParam ",") -}}
+    {{- $wanted = $wanted | append (trim . " ") -}}
+  {{- end -}}
+  {{- range $t := $wanted -}}
+    {{- template "renderTagTable" (dict "name" $t "reviews" $reviews) -}}
+  {{- end -}}
+{{- else -}}
+  {{- /* Collect all unique tags when no specific tags are provided */ -}}
+  {{- $allTags := slice -}}
+  {{- range $reviews -}}
+    {{- with .Params.tags -}}
+      {{- range . -}}
+        {{- if not (in $allTags .) -}}
+          {{- $allTags = $allTags | append . -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- range $t := sort $allTags -}}
+    {{- template "renderTagTable" (dict "name" $t "reviews" $reviews) -}}
+  {{- end -}}
+{{- end -}}

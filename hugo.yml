@@ -26,23 +26,10 @@ params:
     enabled: true
     title: "HAI HELLO HIII HAI" # optional default will be site title
     subtitle: "This is my personal site for all the stuff related to my online activity. Have fun!"
-    imageUrl: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.healthshots.com%2Fhealthshots%2Fen%2Fuploads%2F2023%2F04%2F23113556%2Fsadness.jpg&f=1&nofb=1&ipt=4db1f9c94eb1e4411a6e63aa8768408be932c67ac993f4db5b79885a3255642a" # optional
+    imageUrl: "/img/avatar.gif" # optional
     imageTitle: "pivnoy_chel" # optional
-    imageWidth: 480 # custom size
-    imageHeight: 480 # custom size
-    buttons:
-      - name: Archive
-        url: "/archive"
-      - name: Github
-        url: "https://github.com/"
-
-  socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
+    imageWidth: 
+    imageHeight: 
 
   # for search
   # https://fusejs.io/api/options.html

@@ -1,7 +1,7 @@
 .profile-home {
     position: relative;
     min-height: calc(100vh - var(--header-height) - var(--footer-height));
-    max-width: 80%;
+    max-width: min(80%, 1200px);
     margin: auto;
     padding: var(--gap);
 }
@@ -14,7 +14,9 @@
 }
 
 .profile-inner img {
-    border-radius: 50%;
+    border-radius: 35%;
+    max-width: 100%;
+    height: auto;
 }
 
 .home-grid { 
@@ -29,23 +31,41 @@
     gap: 3rem; 
 }
 
+.table-responsive {
+    overflow-x: auto;
+    width: 100%;
+}
+
 .links-table table { 
     width: 100%; 
-    border-collapse: collapse; 
+    border-collapse: collapse;
+    margin-bottom: 1rem;
 }
 
-.links-table th, .links-table td { 
+.links-table td { 
     padding: .5rem 1rem; 
-    border: 2px solid rgba(165, 14, 14, 0.28); 
     vertical-align: top; 
+    border: 1px solid rgb(67, 31, 77);
 }
 
-.links-table th { 
-    font-size: .875rem; 
-    text-transform: uppercase; 
-    letter-spacing: .02em; 
-    opacity: .7; 
-    text-align: left; 
+.links-table tr:nth-child(even) {
+    background-color: rgba(90, 0, 78, 0.1);
+}
+
+.links-table tr:nth-child(odd) {
+    background-color: rgba(61, 0, 30, 0.1);
+}
+
+.links-table tr:hover {
+    background-color: rgba(90, 0, 78, 0.2);
+}
+
+.links-table td:first-child {
+    width: 30;
+}
+        
+.links-table td:last-child {
+    width: 70%;
 }
 
 .section-title { 
@@ -59,6 +79,12 @@
     align-content: start; 
 }
 
+.sidebar section {
+    background-color: rgba(61, 0, 30, 0.05);
+    padding: 1.25rem;
+    border-radius: 8px;
+}
+
 .sidebar ul { 
     margin: 0; 
     padding-inline-start: 1rem; 
@@ -68,11 +94,25 @@
     opacity: .7; 
 }
 
+a:hover {
+    color: hotpink;
+}
+
 a {
     color: rgb(240, 231, 235);
     font-weight: bold;
 }
 
-a:hover {
+.home-grid a:hover, .sidebar a:hover {
     color: hotpink;
+}
+
+.home-grid a, .sidebar a {
+    color: rgb(253, 212, 243);
+}
+
+@media (max-width: 1000px) {
+    .home-grid {
+        grid-template-columns: 1fr; 
+    }
 }
