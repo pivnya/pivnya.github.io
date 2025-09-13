@@ -1,7 +1,7 @@
 baseURL: "https://pivnya.cool/"
 title: pivnya.cool
 pagination.pagerSize: 5
-theme: PaperMod
+theme: papermod
 
 enableRobotsTXT: true
 buildDrafts: false
