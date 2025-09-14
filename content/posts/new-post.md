@@ -1,12 +1,12 @@
 ---
-title: "mysterious meow"
+title: "mysterious "
 date: "2025-02-01T10:00:00-03:00"
 tags: ["meow",]
 title-images: ["/photo6.png",]
 ending-images: []
 author: "mochi"
 draft: false
-favorite: true
+favourite: true
 ---
 <!-- introduction -->
 ## TEST INTRODUCTION

@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on pivnya.cool</title>
-    <link>https://pivnya.cool/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on pivnya.cool</description>
     <generator>Hugo -- 0.149.1</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://pivnya.cool/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Music</title>
+      <link>http://localhost:1313/tags/music/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/music/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Funny</title>
-      <link>https://pivnya.cool/tags/funny/</link>
+      <link>http://localhost:1313/tags/funny/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://pivnya.cool/tags/funny/</guid>
+      <guid>http://localhost:1313/tags/funny/</guid>
       <description></description>
     </item>
     <item>
       <title>Games</title>
-      <link>https://pivnya.cool/tags/games/</link>
+      <link>http://localhost:1313/tags/games/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://pivnya.cool/tags/games/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Music</title>
-      <link>https://pivnya.cool/tags/music/</link>
-      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://pivnya.cool/tags/music/</guid>
+      <guid>http://localhost:1313/tags/games/</guid>
       <description></description>
     </item>
     <item>
       <title>Meow</title>
-      <link>https://pivnya.cool/tags/meow/</link>
+      <link>http://localhost:1313/tags/meow/</link>
       <pubDate>Sat, 01 Feb 2025 10:00:00 -0300</pubDate>
-      <guid>https://pivnya.cool/tags/meow/</guid>
+      <guid>http://localhost:1313/tags/meow/</guid>
       <description></description>
     </item>
   </channel>
