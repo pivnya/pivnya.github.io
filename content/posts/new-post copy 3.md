@@ -1,8 +1,8 @@
 ---
-title: "AAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+title: "AAAAAAAAAAAAAAAAAAAAAAAAAA"
 date: 2025-09-01
 categories: ["Reviews"]
-tags: ['Games', 'Music', 'Funny']   # or ["Music"]
+tags: ['Games', 'Funny']   # or ["Music"]
 score: 8.7
 cover:
   image: "/images/reviews/xyz-cover.jpg"

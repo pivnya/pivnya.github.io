@@ -18,7 +18,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     gap: 10px;
+}
+
+#special-text {
+    animation: spin 18s linear infinite;
+    color: hsl(var(--hue) 60% 40%);
+    font-weight: bold;
 }
 
 .profile-inner img {
@@ -26,7 +33,7 @@
     border-radius: 16px;
     background: #111; color: #fff;
     display: grid; place-items: center;
-    animation: spin 6s linear infinite;
+    animation: spin 12s linear infinite;
     box-shadow: 0 0 32px 2px hsl(var(--hue) 60% 40%);
 }
 
@@ -92,7 +99,6 @@
 
 .sidebar section {
     padding-left: 1.25rem;
-    background-color: rgba(61, 0, 30, 0.05);
     border-radius: 8px;
     width: 100%; 
 

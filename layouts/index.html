@@ -9,8 +9,8 @@
             {{ with site.Params.profileMode.imageUrl }}
               <img src="{{ . }}" alt="{{ site.Params.profileMode.imageTitle }}" width="{{ site.Params.profileMode.imageWidth }}" height="{{ site.Params.profileMode.imageHeight }}" />
             {{ end }}
-            <h1>{{ or site.Params.profileMode.title site.Title }}</h1>
-            {{ with site.Params.profileMode.subtitle }}<p>{{ . }}</p>{{ end }}
+            <h1>{{ or site.Params.profileMode.title site.Title | safeHTML }}</h1>
+            {{ with site.Params.profileMode.subtitle | safeHTML }}<p>{{ . }}</p>{{ end }}
           </div>
         </header>
       {{ end }}

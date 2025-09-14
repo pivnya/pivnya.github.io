@@ -30,8 +30,8 @@ params:
 
   profileMode:
     enabled: true
-    title: "HAI HELLO HIII HAI" # optional default will be site title
-    subtitle: "This is my personal site for all the stuff related to my online activity. Have fun!"
+    title: "Welcome to the <span id='special-text'>Wired</span>!" # optional default will be site title
+    subtitle: "Hello traveler! <br> This is my personal site, where all the stuff related to my online activity is located. Have fun!"
     imageUrl: "/img/avatar.gif" # optional
     imageTitle: "pivnoy_chel" # optional
     imageWidth: 
@@ -51,14 +51,14 @@ params:
 
 menu:
   main:
-    - identifier: search
-      name: ✝ Search
-      url: /search/
-      weight: 10
-
     - identifier: archive
       name: ✝ Archive
       url: /archives/
+      weight: 10
+
+    - identifier: search
+      name: ✝ Search
+      url: /search/
       weight: 20
 
     - identifier: reviews
