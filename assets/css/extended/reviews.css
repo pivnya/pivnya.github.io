@@ -1,14 +1,18 @@
-.reviews-table { 
+.post-content table th,
+.post-content table:not(.highlighttable, .highlight table, .gist .highlight) td {
+    border: 1px solid rgb(67, 31, 77);
+}
+
+.reviews-table {
     border-collapse: collapse; 
     margin: 1.25rem 0 2.5rem; 
     table-layout: fixed; 
-
 }
 
-.reviews-table th, .reviews-table td { 
+.reviews-table th,
+.reviews-table td {
     padding: .6rem .5rem; 
     vertical-align: top; 
-
 }
 
 .reviews-table th { 
@@ -34,4 +38,16 @@
 
 .reviews-table td:nth-child(5) { 
     max-width: 50%; 
+}
+
+.reviews-table tr:nth-child(odd) {
+    background-color: rgba(61, 0, 30, 0.1);
+}
+
+.reviews-table tr:nth-child(even) {
+    background-color: rgba(90, 0, 78, 0.1);
+}
+
+.reviews-table tr:hover {
+    background-color: rgba(90, 0, 78, 0.2);
 }

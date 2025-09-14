@@ -27,6 +27,7 @@ params:
   ShowBreadCrumbs: false
   ShowPostNavLinks: false
   ShowCodeCopyButtons: true
+  disableAnchoredHeadings: true
 
   profileMode:
     enabled: true

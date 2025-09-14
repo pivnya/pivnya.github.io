@@ -10,6 +10,7 @@
   {{- $filtered := where $reviews "Params.tags" "intersect" (slice $name) -}}
   {{- if gt (len $filtered) 0 -}}
     {{- $filtered = sort $filtered "Date" "desc" -}}
+
     <h2 id="{{ anchorize $name }}">{{ $name }}</h2>
     <table class="reviews-table">
       <thead>
