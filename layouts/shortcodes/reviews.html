@@ -43,7 +43,7 @@
             <td><a href="{{ $url }}">{{ $title }}</a></td>
             <td>
               {{- if $cover -}}
-                <img src="{{ $cover | relURL }}" alt="{{ $title }}" loading="lazy" style="max-width:120px;height:auto;">
+                <img src="{{ $cover | relURL }}" alt="{{ $title }}" loading="lazy">
               {{- else -}}&mdash;{{- end -}}
             </td>
             <td>{{ $score }}</td>

@@ -9,7 +9,7 @@
 .profile-home {
     position: relative;
     min-height: calc(100vh - var(--header-height) - var(--footer-height));
-    max-width: min(80%, 1200px);
+    max-width: calc(var(--main-width) + var(--gap) * 20);
     margin: auto;
     padding: var(--gap);
 }
@@ -93,7 +93,7 @@
 .sidebar section {
     padding-left: 1.25rem;
     background-color: rgba(61, 0, 30, 0.05);
-    border-radius: 12px;
+    border-radius: 8px;
     width: 100%; 
 
 }
