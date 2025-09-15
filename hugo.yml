@@ -31,7 +31,7 @@ params:
 
   profileMode:
     enabled: true
-    title: "Welcome to the <span id='special-text'>Wired</span>!" # optional default will be site title
+    title: "<span id='special-text'>☦</span> Welcome to the <span id='special-text'>Wired</span>! <span id='special-text'>☦</span>" # optional default will be site title
     subtitle: "Hello traveler! <br> This is my personal site, where all the stuff related to my online activity is located. Have fun!"
     imageUrl: "/img/avatar.gif" # optional
     imageTitle: "pivnoy_chel" # optional
@@ -71,3 +71,7 @@ outputs:
     - HTML
     - RSS
     - JSON # necessary for search
+
+markup:
+  asciidocExt:
+    safeMode: unsafe

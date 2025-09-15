@@ -3,10 +3,6 @@
     border: 1px solid rgb(67, 31, 77);
 }
 
-.post-content a {
-    box-shadow: none;
-}
-
 .reviews-table {
     border-collapse: collapse; 
     margin: 1.25rem 0 2.5rem; 
