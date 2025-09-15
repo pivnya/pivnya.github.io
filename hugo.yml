@@ -71,7 +71,3 @@ outputs:
     - HTML
     - RSS
     - JSON # necessary for search
-
-markup:
-  asciidocExt:
-    safeMode: unsafe

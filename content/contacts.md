@@ -7,7 +7,7 @@ ShowToc: false
 ---
 ### 📞 General Contact Information
 
-* 📩 **E-mail address: pivnoy_chel@pivnya.cool**  
+* 📩 **E-mail address:** **{{< rawhtml >}} <span id="special-text"> pivnoy_chel@pivnya.cool </span> {{< /rawhtml >}}**  
   
 Feel free to send me an e-mail any time you want. I will try to answer you as soon as possible :D  
 
@@ -29,7 +29,7 @@ that Elon feeds you. You might find it interesting!
 
 * You will never find me on *-eugh-* **Reddit**.
 * I will never, ever create an account on **Meta's** platform -- **Instagram**, **Snapchat**, or any other nest for bug-people they will come up with. **NO**.
-* TikTok. No. Funny story -- I once decided to create a TikTok account; however, after registration, I was immediately banned. I guess I should thank God, the universe, or the Übermensch.
+* **TikTok**. No. Funny story -- I once decided to create a **TikTok** account; however, after registration, I was immediately banned. I guess I should thank God, the universe, or the Übermensch.
   
 ___
 All the information on where or how to find me is linked on this site **ο(=•ω＜=)ρ⌒☆**
