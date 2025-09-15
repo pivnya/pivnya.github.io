@@ -4,5 +4,5 @@ layout: "search" # necessary for search
 # url: "/archive"
 # description: "Description for Search"
 summary: "search"
-placeholder: "ヾ(•ω•`)o"
+placeholder: "Type a category, tag or title here!    ヾ(•ω•`)o"
 ---

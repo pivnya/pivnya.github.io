@@ -48,7 +48,7 @@
               {{- else -}}&mdash;{{- end -}}
             </td>
             <td>{{ $score }}</td>
-            <td>{{ plainify .Content | strings.Truncate 50 }} <a href="{{ $url }}">click here!</a> </td>
+            <td>{{ plainify .Content | strings.Truncate 150 }} <a href="{{ $url }}">click here!</a> </td>
           </tr>
         {{- end -}}
       </tbody>

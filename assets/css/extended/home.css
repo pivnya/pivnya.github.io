@@ -22,12 +22,6 @@
     gap: 10px;
 }
 
-#special-text {
-    animation: spin 18s linear infinite;
-    color: hsl(var(--hue) 60% 40%);
-    font-weight: bold;
-}
-
 .profile-inner img {
     --hue: 0;
     border-radius: 16px;
@@ -112,23 +106,6 @@
 
 .muted { 
     opacity: .7; 
-}
-
-a:hover {
-    color: hotpink;
-}
-
-a {
-    color: rgb(240, 231, 235);
-    font-weight: bold;
-}
-
-.home-grid a:hover, .sidebar a:hover {
-    color: hotpink;
-}
-
-.home-grid a, .sidebar a {
-    color: rgb(253, 212, 243);
 }
 
 @media (max-width: 1000px) {

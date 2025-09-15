@@ -1,5 +1,5 @@
 ---
-title: "AAAAAAAAAAAAAAAAAAAAAAAAAA"
+title: "AAA"
 date: 2025-09-01
 categories: ["Reviews"]
 tags: ['Games', 'Funny']   # or ["Music"]
