@@ -15,7 +15,6 @@ Feel free to send me an e-mail any time you want. I will try to answer you as so
 
 * You can find me on [Discord](https://discord.gg/faayfe9jwa) under username **@pivnoychel**. I'm pretty active on this p*dophile-riddled platform.  
 * I have a [Steam](https://steamcommunity.com/id/pivnoy_chel/) account; my username is -- **pivnoy_chel**. You can add me via my friend code **352518938** :D  
-* I also use Telegram; you can find me there under the username -- **@zhelaemynik**.  
 * If you wish to add me on [Spotify](https://open.spotify.com/user/31fgr7mf4ppsjpjh2h5iqqhvjgyq?si=0975758e2c4044b0) or check my playlists, you are free to do so.
   
 
@@ -32,4 +31,7 @@ that Elon feeds you. You might find it interesting!
 * **TikTok**. No. Funny story -- I once decided to create a **TikTok** account; however, after registration, I was immediately banned. I guess I should thank God, the universe, or the Übermensch.
   
 ___
-All the information on where or how to find me is linked on this site **ο(=•ω＜=)ρ⌒☆**
+All the information on where or how to find me is linked on this site **ο(=•ω＜=)ρ⌒☆**  
+  
+
+![](/img/hi.gif)

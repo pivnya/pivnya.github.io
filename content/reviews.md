@@ -6,6 +6,9 @@ hidemeta: true
 ShowToc: false
 ---
 
-Haii! This page contains all of my reviews on different topics -- usually things that I stream on [twitch.tv](https://www.twitch.tv/pivnoy_chel), check it out!
+Haii! This page contains all of my reviews on different topics -- usually things that I stream on **{{< rawhtml >}}<span id="special-text"> <a id="special-text" href="https://www.twitch.tv/pivnoy_chel">twitch.tv</a></span>{{< /rawhtml >}}**, check it out!
 
 {{< reviews category="Reviews" tags="Games, Music">}}    
+
+___
+![](/img/glorp-zaza.gif)
