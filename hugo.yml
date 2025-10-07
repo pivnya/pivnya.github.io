@@ -71,3 +71,9 @@ outputs:
     - HTML
     - RSS
     - JSON # necessary for search
+
+markup:
+  goldmark:
+    parser:
+      attribute:
+        title: true

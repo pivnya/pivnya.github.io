@@ -9,7 +9,6 @@
 .profile-home {
     position: relative;
     min-height: calc(100vh - var(--header-height) - var(--footer-height));
-    max-width: calc(var(--main-width) + var(--gap) * 20);
     margin: auto;
     padding: var(--gap);
 }
@@ -24,15 +23,13 @@
 
 .profile-inner img {
     --hue: 0;
-    border-radius: 16px;
     background: #111; color: #fff;
     display: grid; place-items: center;
     animation: spin 12s linear infinite;
-    box-shadow: 0 0 32px 2px hsl(var(--hue) 60% 40%);
+    box-shadow: 0 0 24px 4px hsl(var(--hue) 60% 40%);
 }
 
 .profile-inner img {
-    border-radius: 35%;
     max-width: 100%;
     height: auto;
 }
