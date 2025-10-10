@@ -22,10 +22,10 @@ hidemeta: true
 * [Customize your Steam library](https://www.steamgriddb.com/)
 
 ### Silent Hill {.center}
-* [Silent Hill 1-4](http://www.silenthillmedia.net/)
-* [Russian SH fan site](https://nightmarish-dream.ru/)
+* [Guides, posters and other stuff about Silent Hill 1-4](http://www.silenthillmedia.net/)
+* [Russian Silent Hill fan site](https://nightmarish-dream.ru/)
 * [Comprehensive SH2 fan project](http://www.igotaletter.com/)
-* [Silent Hill memories](https://www.silenthillmemories.net/)
+* [Cool Silent Hill fan site](https://www.silenthillmemories.net/)
 
 
 {{< column >}}
@@ -39,7 +39,7 @@ hidemeta: true
 * [E-Library](https://annas-archive.org/)
 * [Speed-typing with literature](https://www.typelit.io/)
 
-### Other (will sort them later)
+### Other (will sort them later) {.center}
 * [Reyohoho](https://reyohoho.gitlab.io)
 * [PeerTube](https://peertube.tv/)
 * [MarkDown guide](https://simplemde.com/markdown-guide)
