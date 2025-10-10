@@ -16,6 +16,9 @@ tables:
       - text: "Contact Me"
         url: "/contacts/"
         description: "My contact information."
+      - text: "Reviews"
+        url: "/reviews/"
+        description: "My personal opinion on media I consumed."
         
   - title: "My Activity"
     rows:
@@ -31,20 +34,15 @@ tables:
 
   - title: "Fun Stuff"
     rows:
-      - text: "Reviews"
-        url: "/reviews/"
-        description: "My personal opinion on media I consumed."
       - text: "Cool Links"
         url: "/links/"
-        description: "🔨UNDER CONSTRUCTION🔨"
-
+        description: "A collection of funny links."
       - text: "Music Playlists"
         url: "/playlists/"
         description: "🔨UNDER CONSTRUCTION🔨"
       - text: "Letterboxd"
-        url: ""
+        url: "https://letterboxd.com/pivnyasher/"
         description: "My Letterboxd account."
-
       - text: "Wishlist"
         url: "/wishlist/"
         description: "🔨UNDER CONSTRUCTION🔨"

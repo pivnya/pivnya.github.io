@@ -31,7 +31,7 @@ the browser support for :has is not widespread yet.
 .home-info .entry-content img {
     width: 100%;
     max-width: fit-content;
-    border-radius: 2%;
+    border-radius: 0%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
@@ -50,6 +50,7 @@ the browser support for :has is not widespread yet.
 }
 
 .post-content img {
+    border-radius: 0%;
     margin: auto;
 }
 .post-content figcaption {
@@ -94,4 +95,15 @@ a {
 
 body {
 	font-family: MS Gothic;
+}
+
+.top-link {
+    width: 42px;
+    height: 42px;
+    border-radius: 0px;
+    background: rgba(78, 78, 78, 0.4);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0;
 }

@@ -52,17 +52,17 @@ params:
 menu:
   main:
     - identifier: archive
-      name: ✝ Archive
+      name: ☦ Archive
       url: /archives/
       weight: 10
 
     - identifier: search
-      name: ✝ Search
+      name: ☦ Search
       url: /search/
       weight: 20
 
     - identifier: reviews
-      name: ✝ Reviews
+      name: ☦ Reviews
       url: /reviews/
       weight: 30
 
