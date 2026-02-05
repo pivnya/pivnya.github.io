@@ -30,7 +30,7 @@ params:
 
   profileMode:
     enabled: true
-    title: "<span id='special-text'>☦</span> Welcome to the <span id='special-text'>Wired</span>! <span id='special-text'>☦</span>" # optional default will be site title
+    title: "<span class='special-text'>☦</span> Welcome to the <span id='special-text'>Wired</span>! <span class='special-text'>☦</span>" # optional default will be site title
     subtitle: "Hello traveler! <br> This is my personal site, where all the stuff related to my online activity is located. Have fun!"
     imageUrl: "/img/avatar.gif" # optional
     imageTitle: "pivnoy_chel" # optional
