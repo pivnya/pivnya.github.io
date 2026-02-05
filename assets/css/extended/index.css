@@ -1,11 +1,3 @@
-@property --hue {
-    syntax: '<number>';
-    inherits: false;
-    initial-value: 0;
-}
-
-@keyframes spin { to { --hue: 360; } }
-
 .profile-home {
     position: relative;
     min-height: calc(100vh - var(--header-height) - var(--footer-height));

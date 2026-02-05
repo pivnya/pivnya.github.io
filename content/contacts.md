@@ -6,7 +6,7 @@ hidemeta: true
 ---
 ### 📞 General Contact Information
 
-* 📩 **E-mail address:** **{{< rawhtml >}} <span id="special-text"> pivnoy_chel@pivnya.cool </span> {{< /rawhtml >}}**  
+* 📩 **E-mail address:** **{{< rawhtml >}} <span class="special-text"> pivnoy_chel@pivnya.cool </span> {{< /rawhtml >}}**  
   
 Feel free to send me an e-mail any time you want. I will try to answer you as soon as possible :D  
 ___

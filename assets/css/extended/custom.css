@@ -3,6 +3,14 @@
     src: url("/fonts/SpecialElite-Regular.ttf") format("truetype");
 }
 
+@property --hue {
+    syntax: '<number>';
+    inherits: false;
+    initial-value: 0;
+}
+
+@keyframes spin { to { --hue: 360; } }
+
 /* Increase the default width of the page. */
 .main  {
     max-width: calc(var(--main-width) + var(--gap) * 20);
@@ -77,27 +85,6 @@ a {
     box-shadow: none;
 }
 
-/* Changing colors. */
-
-@property --hue {
-    syntax: '<number>';
-    inherits: false;
-    initial-value: 0;
-}
-
-@keyframes spin { to { --hue: 360; } }
-
-#special-text {
-    animation: spin 18s linear infinite;
-    color: hsl(var(--hue) 60% 40%);
-    font-weight: bold;
-}
-
-/* Misc. */
-.center {
-	text-align:center;
-}
-
 body {
 	font-family: MS Gothic;
 }
@@ -117,5 +104,3 @@ body {
 .post-tags a {
     border-radius: var(--radius);
 }
-
-/* Archive */

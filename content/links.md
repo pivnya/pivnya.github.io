@@ -40,6 +40,6 @@ hidemeta: true
 * [PeerTube](https://peertube.tv/)
 * [MarkDown guide](https://simplemde.com/markdown-guide)
   
-### {{< rawhtml >}} <span id="special-text"> More soon! </span> {{< /rawhtml >}} {.center}
+### {{< rawhtml >}} <span class="special-text"> More soon! </span> {{< /rawhtml >}} {.center}
   
 {{< endcolumns >}}

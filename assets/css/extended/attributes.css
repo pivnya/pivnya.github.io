@@ -1,0 +1,27 @@
+.center {
+	text-align:center;
+}
+
+.green-text {
+	color: green;
+}
+
+.red-text {
+	color: darkred;
+}
+
+.blue-text {
+	color: darkslateblue;
+}
+
+.special-text {
+    animation: spin 18s linear infinite;
+    color: hsl(var(--hue) 60% 40%);
+    font-weight: bold;
+}
+
+.img-text {
+    color: grey;
+    font-size: smaller;
+    text-align: center;
+}

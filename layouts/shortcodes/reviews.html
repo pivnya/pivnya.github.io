@@ -12,12 +12,12 @@
     {{- $filtered = sort $filtered "Date" "desc" -}}
 
     <h2 id="{{ anchorize $name }}">{{ $name }}</h2>
-    <table class="reviews-table">
+    <table>
       <thead>
         <tr>
           <th>#</th>
           <th>Name</th>
-          <th>Image</th>
+          <th>Cover</th>
           <th>Score</th>
           <th>Review</th>
         </tr>
@@ -48,7 +48,7 @@
               {{- else -}}&mdash;{{- end -}}
             </td>
             <td>{{ $score }}</td>
-            <td>{{ plainify .Content | strings.Truncate 150 ""}} <a href="{{ $url }}">click here!</a> </td>
+            <td>{{ .Plain | strings.Truncate 67 "..."}} <a href="{{ $url }}"> click here!</a> </td>
           </tr>
         {{- end -}}
       </tbody>
