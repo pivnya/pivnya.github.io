@@ -14,7 +14,6 @@ minify:
   minifyOutput: true
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: pivnya.cool
   author: pivnoy_chel
   DateFormat: "January 2, 2006"
@@ -51,20 +50,10 @@ params:
 
 menu:
   main:
-    - identifier: archive
-      name: ☦ Archive
-      url: /archives/
-      weight: 10
-
     - identifier: search
       name: ☦ Search
       url: /search/
-      weight: 20
-
-    - identifier: reviews
-      name: ☦ Reviews
-      url: /reviews/
-      weight: 30
+      weight: 10
 
 outputs:
   home:

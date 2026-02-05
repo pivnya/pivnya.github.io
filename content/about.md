@@ -17,6 +17,6 @@ I love gaming, Silent Hill, and music.
 Thank you for stopping by!  
 
 {{< column >}}
-![me](/img/me.JPG)
+![me](/img/me.webp)
 
 {{< endcolumns >}}

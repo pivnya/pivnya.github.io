@@ -19,14 +19,12 @@ hidemeta: true
 * [Abandonware](https://www.myabandonware.com/)
 * [PS2 games in Russian](https://vk.com/topic-155493603_48264935?offset=0)
 * [Pirated Games Thread](https://rentry.org/pgames)
-* [Customize your Steam library](https://www.steamgriddb.com/)
 
 ### Silent Hill {.center}
-* [Guides, posters and other stuff about Silent Hill 1-4](http://www.silenthillmedia.net/)
-* [Russian Silent Hill fan site](https://nightmarish-dream.ru/)
-* [Comprehensive SH2 fan project](http://www.igotaletter.com/)
-* [Cool Silent Hill fan site](https://www.silenthillmemories.net/)
-
+* [Guides, pictures, music of  Silent Hill 1-4](http://www.silenthillmedia.net/)
+* [Russian fan site covering the entire SH series](https://nightmarish-dream.ru/)
+* [Comprehensive SH2 site](http://www.igotaletter.com/)
+* [Silent Hill memories](https://www.silenthillmemories.net/)
 
 {{< column >}}
 
@@ -37,13 +35,11 @@ hidemeta: true
 
 ### Texts {.center}
 * [E-Library](https://annas-archive.org/)
-* [Speed-typing with literature](https://www.typelit.io/)
 
 ### Other (will sort them later) {.center}
-* [Reyohoho](https://reyohoho.gitlab.io)
 * [PeerTube](https://peertube.tv/)
 * [MarkDown guide](https://simplemde.com/markdown-guide)
-
+  
 ### {{< rawhtml >}} <span id="special-text"> More soon! </span> {{< /rawhtml >}} {.center}
-
+  
 {{< endcolumns >}}

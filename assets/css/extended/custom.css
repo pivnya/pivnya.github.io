@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Special Elite";
+    src: url("/fonts/SpecialElite-Regular.ttf") format("truetype");
+}
+
 /* Increase the default width of the page. */
 .main  {
     max-width: calc(var(--main-width) + var(--gap) * 20);
@@ -107,3 +112,10 @@ body {
 ::-webkit-scrollbar-thumb {
     border-radius: 0;
 }
+
+/* Tags */
+.post-tags a {
+    border-radius: var(--radius);
+}
+
+/* Archive */

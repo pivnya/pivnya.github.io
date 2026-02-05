@@ -46,38 +46,6 @@
     gap: 3rem; 
 }
 
-.links-table table { 
-    width: 100%; 
-    border-collapse: collapse;
-    margin-bottom: 1rem;
-}
-
-.links-table td { 
-    padding: .5rem 1rem; 
-    vertical-align: top; 
-    border: 1px solid rgb(67, 31, 77);
-}
-
-.links-table tr:nth-child(even) {
-    background-color: rgba(90, 0, 78, 0.1);
-}
-
-.links-table tr:nth-child(odd) {
-    background-color: rgba(61, 0, 30, 0.1);
-}
-
-.links-table tr:hover {
-    background-color: rgba(90, 0, 78, 0.2);
-}
-
-.links-table td:first-child {
-    width: 30;
-}
-        
-.links-table td:last-child {
-    width: 70%;
-}
-
 .section-title { 
     margin: 0 0 1rem; 
     text-align: center

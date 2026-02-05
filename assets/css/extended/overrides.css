@@ -1,0 +1,29 @@
+:root {
+    --radius: 0px;
+    --border: rgb(67, 31, 77);
+    --fill-even: rgba(90, 0, 78, 0.1);
+    --fill-odd: rgba(61, 0, 30, 0.1);
+    --img: url("https://femboy.beauty/nI8CvM");
+    --bgr-clr-1: rgba(32, 4, 19, 0.95);
+    --bgr-clr-2: rgba(4, 14, 3, 0.95);
+}
+
+.dark {
+    --theme: rgb(4, 20, 5, .95);
+    --entry: rgb(46, 46, 51);
+    --primary: rgb(218, 218, 219);
+    --secondary: rgb(155, 156, 157);
+    --tertiary: rgb(65, 66, 68);
+    --content: rgb(196, 196, 197);
+    --code-block-bg: rgb(46, 46, 51);
+    --code-bg: rgb(55, 56, 62);
+    --border: rgb(67, 31, 77);
+}
+
+.dark.list, body {
+    background-color: var(--theme);
+    background-image: linear-gradient(var(--bgr-clr-1), var(--bgr-clr-2)), var(--img);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
