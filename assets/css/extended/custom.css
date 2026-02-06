@@ -3,6 +3,11 @@
     src: url("/fonts/SpecialElite-Regular.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "GenShinGothic";
+    src: url("/fonts/GenShinGothic-Monospace-Normal.ttf") format("truetype");
+}
+
 @property --hue {
     syntax: '<number>';
     inherits: false;
@@ -86,7 +91,9 @@ a {
 }
 
 body {
-	font-family: MS Gothic;
+	font-family: GenShinGothic;
+    font-size: medium;
+
 }
 
 .top-link {
