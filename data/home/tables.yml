@@ -34,12 +34,6 @@ tables:
         
   - title: "Fun Stuff"
     rows:
-      - text: "Source Maps"
-        url: "/maps/"
-        description: "🔨UNDER CONSTRUCTION🔨"
-      - text: "Games"
-        url: "/vidya/"
-        description: "🔨UNDER CONSTRUCTION🔨"
       - text: "Mods"
         url: "/mods/"
-        description: "🔨UNDER CONSTRUCTION🔨"
+        description: "My creations (. ❛ ᴗ ❛.)"

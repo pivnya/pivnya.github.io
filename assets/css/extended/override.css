@@ -27,3 +27,17 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.post-entry {
+    max-width: calc(var(--main-width) + var(--gap) * 20);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.terms-tags a {
+    display: block;
+    padding: 3px 10px;
+    background: var(--tertiary);
+    border-radius: 0;
+    transition: transform .1s;
+}

@@ -6,8 +6,17 @@
     <description>Recent content on pivnya.cool</description>
     <generator>Hugo -- 0.149.1</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 13:49:24 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Update #1: My Resolution For This Year</title>
+      <link>http://localhost:1313/posts/update-1/</link>
+      <pubDate>Fri, 06 Feb 2026 13:49:24 +0200</pubDate>
+      <guid>http://localhost:1313/posts/update-1/</guid>
+      <description>&lt;p&gt;A small update on my modest project. (￣o￣) . z Z&lt;/p&gt;
+&lt;p&gt;Every day is torture and reflection on unrealized ideas.&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s the point of existing if you can&amp;rsquo;t do what you truly want? There is nothing worse than living paycheck to paycheck, destroying your mind and body in your free time, telling yourself &amp;ndash; &amp;ldquo;I deserve rest, I worked so much and I can afford it&amp;rdquo;. But your &lt;strong&gt;j*b&lt;/strong&gt; is already destroying your body. There is nothing good about working for someone else without improving yourself, only to retire at 60 with a broken body.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Metal Gear MSX2 - Steam Port Review</title>
       <link>http://localhost:1313/posts/mg-review/</link>
@@ -40,6 +49,13 @@ The game was included as a side content on a second disc for the game title!&lt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/links/</guid>
       <description>links</description>
+    </item>
+    <item>
+      <title>Mods</title>
+      <link>http://localhost:1313/mods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/mods/</guid>
+      <description>mods</description>
     </item>
     <item>
       <title>Reviews</title>
