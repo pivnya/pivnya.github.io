@@ -40,4 +40,4 @@ hidemeta: true
   
 {{< endcolumns >}}
   
-![bane](/img/industrial-revolution-and-its-consequences.webp) 
+![](/img/industrial-revolution-and-its-consequences.webp) 
