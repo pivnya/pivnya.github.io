@@ -11,6 +11,7 @@ hidemeta: true
 * [FastHub.net](https://fasthub.net/)   | Online Apple text-to-speech software
 * [z0r.de](https://z0r.de)  | Ultimate Brainrot
 * [Horror Gifs](https://horrorgifs.neocities.org)   | Very spooky GIFs and sounds o((⊙﹏⊙))o
+* [Wiby.me](https://wiby.me/)  | Funny search engine ヾ(•ω•`)o 
   
 ### Games {.center}
 * [Myrient](https://myrient.erista.me/) | An archive of ROMs and other videogame related stuff
@@ -27,6 +28,11 @@ hidemeta: true
   
 {{< column >}}
 
+### Other game links { .center }
+* [Ryu Ga Gotoku](https://ryu-ga-gotoku.com/one/)  | Official Ryu Ga Gotoku website  
+* [JunkerHQ](https://junkerhq.net/kojima.html)    | Scans of Kojima's games  
+* [Metal Gear Forever](https://metalgearforever.homestead.com/metalgear.html)   | Comprehensive fan site covering MGS1-4  
+  
 ### Tech {.center}
 * [Microsoft Activation Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)    | You know Windows is free, right?  
 * [SpotX](https://github.com/SpotX-Official/SpotX)  | Spotify too, apparently d=====(￣▽￣*)b
@@ -36,7 +42,7 @@ hidemeta: true
 ### Texts {.center}
 * [E-Library](https://annas-archive.org/)   | An archive of tons of writings and books; mirrors change pretty often
   
-### {{< rawhtml >}} <span class="special-text"> More soon! </span> {{< /rawhtml >}} {.center}
+### {{< rawhtml >}} <span class="special-text"> More soon! ...probably </span> {{< /rawhtml >}} {.center}
   
 {{< endcolumns >}}
   
