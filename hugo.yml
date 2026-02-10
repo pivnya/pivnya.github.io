@@ -18,6 +18,7 @@ params:
   author: pivnoy_chel
   DateFormat: "January 2, 2006"
 
+
   defaultTheme: dark # dark, light
   disableThemeToggle: true
 
@@ -46,6 +47,9 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "tags", "categories"]
+
+  assets:
+    favicon: "assets/favicon.ico"
   
 
 menu:
