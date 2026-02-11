@@ -34,17 +34,20 @@ tr:hover {
 }
 
 /* Index Page */
-.links-table td:nth-child(1) { 
+.link-table td:nth-child(1) { 
     width: 15%; 
 }
 
-/* Rest */
+.link-table thead {
+    display: none;
+}
+/* Rest of site */
 
 td:nth-child(1) { 
-    width: 5%; 
+    max-width: 5%; 
 }
 td:nth-child(2) { 
-    width: 40%; 
+    width: 35%; 
     word-break: break-word; 
 }
 
@@ -54,9 +57,9 @@ td:nth-child(3) {
 }
 
 td:nth-child(4) { 
-    width: 5%; 
+    max-width: 5%; 
 }
 
 td:nth-child(5) { 
-    max-width: 50%; 
+    max-width: 60%; 
 }

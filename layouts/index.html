@@ -1,63 +1,18 @@
 {{ define "main" }}
-  <div class="profile-home">
-  {{ partial "indexProfile.html" . }}
+  <div class="index">
 
-    <div class="home-grid">
-        <div class="links-stack">
-          {{ $tables := site.Data.home.tables }}
-          {{ with $tables.tables }}
-            {{ range . }}
-              <section class="links-table">
-                <h3 class="section-title">{{ .title }}</h3>
-                <table>
-                  <tbody>
-                  {{ range .rows }}
-                    <tr>
-                      <td><a href="{{ .url }}">{{ or .text .url }}</a></td>
-                      <td>{{ .description }}</td>
-                    </tr>
-                  {{ end }}
-                  </tbody>
-                </table>
-              </section>
-            {{ end }}
-          {{ else }}
-            <p class="muted">No tables :(</p>
-          {{ end }}
+  {{ partial "index/index-profile.html" . }}
+
+    <div class="index-grid">
+      <div class="sideleft">
+      {{ with .Content }}
+          {{ . }}
+      {{ end }}
       </div>
 
-      <aside class="sidebar">
-        <section>
-          <h3 class="section-title">Selected Posts</h3>
-          <ul>
-            {{ $fav := slice }}
-            {{ with site.Params.home.favourites }}
-              {{ range . }}
-                {{ with site.GetPage . }}
-                  {{ $fav = $fav | append . }}
-                {{ end }}
-              {{ end }}
-            {{ else }}
-              {{ $fav = where site.RegularPages ".Params.favourite" true }}
-            {{ end }}
-            {{ range $fav }}
-              <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
-            {{ else }}
-              <li class="muted">No selected posts yet...</li>
-            {{ end }}
-          </ul>
-        </section>
-
-        <section>
-          <h3 class="section-title">Latest Posts</h3>
-          <ul>
-            {{ range first 5 (where site.RegularPages "Type" "posts").ByDate.Reverse }}
-              <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
-            {{ else }}
-              <li class="muted">Nothing here...</li>
-            {{ end }}
-          </ul>
-        </section>
+      <aside class="sideright">
+          {{ partial "index/selected-posts.html" . }}
+          {{ partial "index/latest-posts.html" . }}
       </aside>
     </div>
   </div>

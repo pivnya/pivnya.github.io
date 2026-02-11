@@ -1,0 +1,20 @@
+<section>
+    <h3 class="section-title">Selected Posts</h3>
+    <ul>
+    {{ $fav := slice }}
+    {{ with site.Params.home.favourites }}
+        {{ range . }}
+        {{ with site.GetPage . }}
+            {{ $fav = $fav | append . }}
+        {{ end }}
+        {{ end }}
+    {{ else }}
+        {{ $fav = where site.RegularPages ".Params.favourite" true }}
+    {{ end }}
+    {{ range $fav }}
+        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+    {{ else }}
+        <li class="muted">No selected posts yet...</li>
+    {{ end }}
+    </ul>
+</section>

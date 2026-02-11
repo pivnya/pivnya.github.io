@@ -1,0 +1,10 @@
+<section>
+    <h3 class="section-title">Latest Posts</h3>
+    <ul>
+    {{ range first 5 (where site.RegularPages "Type" "posts").ByDate.Reverse }}
+        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+    {{ else }}
+        <li class="muted">Nothing here...</li>
+    {{ end }}
+    </ul>
+</section>
