@@ -1,0 +1,11 @@
+{{- $link := .Get 0 -}}
+{{- $isExternal := strings.HasPrefix $link "http" -}}
+{{- if not $isExternal -}}
+  {{- $isExternal = strings.HasPrefix $link "//" -}}
+{{- end -}}
+
+<span class="{{ .Get 1 }}">
+    <a href="{{ .Get 0 }}" class="{{ .Get 1 }}"
+    {{- if $isExternal }} target="_blank" rel="noopener"{{ end -}}
+    >{{ .Inner }}</a>
+</span>

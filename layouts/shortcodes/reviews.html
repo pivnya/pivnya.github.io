@@ -17,7 +17,7 @@
         <tr>
           <th>#</th>
           <th>Name</th>
-          <th>Cover</th>
+
           <th>Score</th>
           <th>Review</th>
         </tr>
@@ -32,21 +32,9 @@
 
           {{- $score := $p.Params.score | default "" -}}
 
-          {{- $cover := "" -}}
-          {{- with $p.Params.cover -}}
-            {{- $cover = .image -}}
-          {{- end -}}
-          {{- $cover = $cover | default (index ($p.Params.images | default slice) 0) -}}
-
-
           <tr>
             <td>{{ $i }}</td>
             <td><a href="{{ $url }}">{{ $title }}</a></td>
-            <td>
-              {{- if $cover -}}
-                <img src="{{ $cover | relURL }}" alt="{{ $title }}" loading="lazy">
-              {{- else -}}&mdash;{{- end -}}
-            </td>
             <td>{{ $score }}</td>
             <td>{{ .Plain | strings.Truncate 67 "..."}} <a href="{{ $url }}"> click here!</a> </td>
           </tr>
@@ -57,24 +45,24 @@
 {{- end -}}
 
 {{- if $tagsParam -}}
-  {{- $wanted := slice -}}
-  {{- range (split $tagsParam ",") -}}
-    {{- $wanted = $wanted | append (trim . " ") -}}
-  {{- end -}}
-  {{- range $t := $wanted -}}
-    {{- template "renderTagTable" (dict "name" $t "reviews" $reviews) -}}
-  {{- end -}}
+{{- $wanted := slice -}}
+{{- range (split $tagsParam ",") -}}
+  {{- $wanted = $wanted | append (trim . " ") -}}
+{{- end -}}
+{{- range $t := $wanted -}}
+  {{- template "renderTagTable" (dict "name" $t "reviews" $reviews) -}}
+{{- end -}}
 {{- else -}}
-  {{- $allTags := slice -}}
-  {{- range $reviews -}}
-    {{- with .Params.tags -}}
-      {{- range . -}}
-        {{- if not (in $allTags .) -}}
-          {{- $allTags = $allTags | append . -}}
-        {{- end -}}
+{{- $allTags := slice -}}
+{{- range $reviews -}}
+  {{- with .Params.tags -}}
+    {{- range . -}}
+      {{- if not (in $allTags .) -}}
+        {{- $allTags = $allTags | append . -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}
+{{- end -}}
   {{- range $t := sort $allTags -}}
     {{- template "renderTagTable" (dict "name" $t "reviews" $reviews) -}}
   {{- end -}}

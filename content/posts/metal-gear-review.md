@@ -29,7 +29,7 @@ But do not worry -- the brilliant marketers and people living by the path of a b
 {{< columns >}}
 ![mgs1 plot](/img/mg-review/plot.webp)
 
-The entire plot of Metal Gear 1 sums up in 13 pages w(ﾟДﾟ)w 
+The entire plot of Metal Gear 1 sums up in 13 pages w(ﾟДﾟ)w  
 {.img-text}
   
 {{< column >}}
@@ -56,7 +56,7 @@ So what actually poses a threat in the game? Don’t think it’s the bosses -- 
 Pits.  
   
 In the game, the most frequent causes of death and restarts are invisible pits. And giant metal sausages.  
-These two deeply well-thought-out enemies annihilate Snake by touching a singlle pixel of his skin.  
+These two deeply well-thought-out enemies annihilate Snake by touching a single pixel of his skin.  
 
 {{< column >}}
 ![enemy](/img/mg-review/pits.webp)

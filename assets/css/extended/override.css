@@ -1,11 +1,12 @@
 :root {
     --radius: 0px;
-    --border: rgb(67, 31, 77);
-    --fill-even: rgba(90, 0, 78, 0.1);
-    --fill-odd: rgba(61, 0, 30, 0.1);
     --img: url("https://femboy.beauty/nI8CvM");
     --bgr-clr-1: rgba(32, 4, 19, 0.95);
     --bgr-clr-2: rgba(4, 14, 3, 0.95);
+    --border: rgb(67, 31, 77);
+    --fill-even: rgba(90, 0, 78, 0.6);
+    --fill-odd: rgba(61, 0, 30, 0.6);
+    --hover: rgba(90, 0, 78, 0.8);
 }
 
 .dark {
@@ -28,16 +29,16 @@
     background-repeat: no-repeat;
 }
 
-.post-entry {
-    max-width: calc(var(--main-width) + var(--gap) * 20);
-    margin-left: auto;
-    margin-right: auto;
-}
-
+/* Tags and categories - /tags/ - /categories/ - hard edges */
 .terms-tags a {
     display: block;
     padding: 3px 10px;
     background: var(--tertiary);
     border-radius: 0;
     transition: transform .1s;
+}
+
+/* Go to top */
+.top-link {
+    display: none !important;
 }

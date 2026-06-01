@@ -1,21 +1,3 @@
-@font-face {
-    font-family: "Special Elite";
-    src: url("/fonts/SpecialElite-Regular.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "GenShinGothic";
-    src: url("/fonts/GenShinGothic-Monospace-Normal.ttf") format("truetype");
-}
-
-@property --hue {
-    syntax: '<number>';
-    inherits: false;
-    initial-value: 0;
-}
-
-@keyframes spin { to { --hue: 360; } }
-
 /* Increase the default width of the page. */
 .main  {
     max-width: calc(var(--main-width) + var(--gap) * 20);
@@ -26,24 +8,13 @@
     max-width: calc(var(--nav-width) + var(--gap) * 7.36);
 }
 
-/* Increase less for the home page.
-This will eventually replace the following two rules. But for now
-the browser support for :has is not widespread yet.
-.main:has(.first-entry) {
-    max-width: calc(var(--main-width) + var(--gap) * 10);
-}
-*/
-.post-entry {
-    max-width: calc(var(--main-width) + var(--gap) * 10);
-    margin-left: auto;
-    margin-right: auto;
-}
+/* Increase less for the home page.*/
+.post-entry,
 .first-entry {
-    max-width: calc(var(--main-width) + var(--gap) * 10);
+    max-width: calc(var(--main-width) + var(--gap) * 20);
     margin-left: auto;
     margin-right: auto;
 }
-
 
 /* Increase the width of images placed in home info. */
 .home-info .entry-content img {
@@ -75,39 +46,7 @@ the browser support for :has is not widespread yet.
   text-align: center;
 }
 
-/* Change links color, */
-
-a:hover {
-    color: hotpink;
-}
-
-a {
-    color: rgb(253, 212, 243);
-    font-weight: 600;
-}
-
+/* No underline */
 .post-content a {
     box-shadow: none;
-}
-
-body {
-	font-family: GenShinGothic;
-    font-size: medium;
-
-}
-
-.top-link {
-    width: 42px;
-    height: 42px;
-    border-radius: 0px;
-    background: rgba(78, 78, 78, 0.4);
-}
-
-::-webkit-scrollbar-thumb {
-    border-radius: 0;
-}
-
-/* Tags */
-.post-tags a {
-    border-radius: var(--radius);
 }
