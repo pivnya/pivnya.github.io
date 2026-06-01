@@ -90,30 +90,23 @@ Enemies keep becoming more numerous, while resources never replenish. There's a 
 ![chandelier](/img/crow-review/chandelier.webp)
 Chandeliers are the only REAL danger in the game (╯▽╰ )  
 {.img-text}
-
-
-  
-
-
-
-  
  
 I played on the hardest difficulty, not to brag, but I'm a **gamer**. Maybe that affected both the fragility of my character and my ego.  
   
 ## PART III { .center }  
 ### A LITTLE ABOUT GRAPHICS ╰（‵□′）╯ { .center }  
 
-While walking trhough the beautiful environments, the low resolutin melts away my retinas. A side effect of the graininess is that you stop paying attention to the surroundings and everything turns into a pixelated mess.  
+While walking through the beautiful environments, the low resolution melts away my retinas. A side effect of the graininess is that you stop paying attention to the surroundings and everything turns into a pixelated mess.  
 Pixel hunting in 3D space. I lost a couple of diopters playing this gane, and now they owe me.
   
 ## PART IV { .center }  
 ### PUZZLES ╰（‵□′）╯ { .center }  
 Every room has a puzzle. Just like in real life, you can uncover many mysteries by drilling a hole in your bathroom. Who knows what's on the other side.  
-The puzzle range from heboidophrenic to schizophrenic, which is quite tame for the genre. One upside is that half of the are very simple. For the other half, there are notes.  
+The puzzles range from heboidophrenic to schizophrenic, which is quite tame for the genre. One upside is that half of them are very simple. For the other half, there are notes.  
   
 Actually, there are notes for all the puzzles. I lied.  
 
-By complenting one puzzle, we get the item needed for another puzzle. The loop consists of constant backtracking to previous puzzles all over the place. At least the respawned enemies can keep us company. We return to previous locations more often than in the games of one Japanaese Buryat.  
+By completing one puzzle, we get the item needed for another puzzle. The loop consists of constant backtracking to previous puzzles all over the place. At least the respawned enemies can keep us company. We return to previous locations more often than in the games of one Japanaese Buryat.  
 
 {{< columns >}}
 
