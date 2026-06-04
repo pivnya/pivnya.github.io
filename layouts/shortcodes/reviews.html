@@ -1,69 +1,37 @@
-{{- $category := .Get "category" | default "Reviews" -}}
-{{- $tagsParam := .Get "tags" | default "" -}}
+{{- $reviews := where .Site.RegularPages "Params.categories" "intersect" (slice "Reviews") -}}
+{{- $tags := slice -}}
 
-{{- $reviews := where .Site.RegularPages "Params.categories" "intersect" (slice $category) -}}
-
-{{- define "renderTagTable" -}}
-  {{- $name := .name -}}
-  {{- $reviews := .reviews -}}
-
-  {{- $filtered := where $reviews "Params.tags" "intersect" (slice $name) -}}
-  {{- if gt (len $filtered) 0 -}}
-    {{- $filtered = sort $filtered "Date" "desc" -}}
-
-    <h2 id="{{ anchorize $name }}">{{ $name }}</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>Name</th>
-
-          <th>Score</th>
-          <th>Review</th>
-        </tr>
-      </thead>
-      <tbody>
-        {{- $i := 0 -}}
-        {{- range $p := $filtered -}}
-          {{- $i = add $i 1 -}}
-
-          {{- $title := $p.Title -}}
-          {{- $url := $p.RelPermalink -}}
-
-          {{- $score := $p.Params.score | default "" -}}
-
-          <tr>
-            <td>{{ $i }}</td>
-            <td><a href="{{ $url }}">{{ $title }}</a></td>
-            <td>{{ $score }}</td>
-            <td>{{ .Plain | strings.Truncate 67 "..."}} <a href="{{ $url }}"> click here!</a> </td>
-          </tr>
-        {{- end -}}
-      </tbody>
-    </table>
-  {{- end -}}
-{{- end -}}
-
-{{- if $tagsParam -}}
-{{- $wanted := slice -}}
-{{- range (split $tagsParam ",") -}}
-  {{- $wanted = $wanted | append (trim . " ") -}}
-{{- end -}}
-{{- range $t := $wanted -}}
-  {{- template "renderTagTable" (dict "name" $t "reviews" $reviews) -}}
-{{- end -}}
-{{- else -}}
-{{- $allTags := slice -}}
 {{- range $reviews -}}
   {{- with .Params.tags -}}
-    {{- range . -}}
-      {{- if not (in $allTags .) -}}
-        {{- $allTags = $allTags | append . -}}
-      {{- end -}}
-    {{- end -}}
+    {{- $tags = $tags | append . -}}
   {{- end -}}
 {{- end -}}
-  {{- range $t := sort $allTags -}}
-    {{- template "renderTagTable" (dict "name" $t "reviews" $reviews) -}}
-  {{- end -}}
+
+{{- range $tag := sort ($tags | uniq) }}  
+  {{- $filtered := where $reviews "Params.tags" "intersect" (slice $tag) -}}
+  {{- $filtered = sort $filtered "Date" "desc" -}}
+
+  <h2>{{ $tag }}</h2>
+  <table>
+
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Score</th>
+        <th>Review</th>
+      </tr>
+    </thead>
+    
+    <tbody>
+      {{- range $i, $p := $filtered -}}
+        <tr>
+          <td>{{ add $i 1  }}</td>
+          <td><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></td>
+          <td>{{ $p.Params.score | default "" }}</td>
+          <td>{{ $p.Plain | strings.Truncate 67 "..."}}<a href="{{ $p.RelPermalink }}"> click here!</a></td>
+        </tr>
+      {{- end -}}
+    </tbody>
+  </table>
 {{- end -}}

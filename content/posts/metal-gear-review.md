@@ -1,12 +1,11 @@
 ---
 title: "Metal Gear MSX2 - Steam Port Review"
 date: 2026-02-05
-categories: ["Reviews"]
-tags: ["Games"]
+categories:
+    - "Reviews"
+tags:
+    - "Games"
 score: C
-cover:
-  image: "/img/mg-review/mg-post.webp"
-  hidden: true
 ---
 
 ### PART I  {.center}
