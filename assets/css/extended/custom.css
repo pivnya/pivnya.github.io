@@ -1,3 +1,42 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts */
+@font-face {
+    font-family: "Special Elite";
+    src: url("/fonts/SpecialElite-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "GenShinGothic";
+    src: url("/fonts/GenShinGothic-Monospace-Normal.ttf") format("truetype");
+}
+
+/* Animation properties/keyframes
+special-text and cool.html */
+@property --hue {
+    syntax: '<number>';
+    inherits: false;
+    initial-value: 0;
+}
+
+@keyframes spin { to { --hue: 360; } }
+
+@keyframes wobble {
+    from { transform: rotate(0deg) rotateX(30deg) rotate(360deg); }
+    to { transform: rotate(360deg) rotateX(30deg) rotate(0deg); }
+}
+
+/* General font */
+body {
+    font-family: GenShinGothic;
+    font-size: medium;
+}
+
+
 /* Increase the default width of the page. */
 .main  {
     max-width: calc(var(--main-width) + var(--gap) * 20);
@@ -49,4 +88,184 @@
 /* No underline */
 .post-content a {
     box-shadow: none;
+}
+
+
+/* Overrides */
+:root {
+    --radius: 0px;
+    --img: url("https://femboy.beauty/nI8CvM");
+    --bgr-clr-1: rgba(32, 4, 19, 0.95);
+    --bgr-clr-2: rgba(4, 14, 3, 0.95);
+    --border: rgb(67, 31, 77);
+    --fill-even: rgba(90, 0, 78, 0.1);
+    --fill-odd: rgba(61, 0, 30, 0.1);
+    --hover: rgba(90, 0, 78, 0.8);
+}
+
+.dark {
+    --theme: rgb(20, 20, 20);
+    --entry: rgb(46, 46, 51);
+    --primary: rgb(218, 218, 219);
+    --secondary: rgb(155, 156, 157);
+    --tertiary: rgb(65, 66, 68);
+    --content: rgb(196, 196, 197);
+    --code-block-bg: rgb(46, 46, 51);
+    --code-bg: rgb(55, 56, 62);
+    --border: rgb(67, 31, 77);
+}
+
+.dark.list, body {
+    background-color: var(--theme);
+    background-image: linear-gradient(var(--bgr-clr-1), var(--bgr-clr-2)), var(--img);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.post-content table th,.post-content table:not(.highlighttable,.highlight table,.gist .highlight) td {
+    border: 0px;
+}
+
+.post-content table {
+    margin-bottom: 0px;
+}
+
+.post-content h2 {
+    margin: 0px;
+    font-size: 24px;
+}
+
+/* Tags and categories - /tags/ - /categories/ - hard edges */
+.terms-tags a {
+    display: block;
+    padding: 3px 10px;
+    background: var(--tertiary);
+    border-radius: 0;
+    transition: transform .1s;
+}
+
+/* Go to top */
+.top-link {
+    display: none !important;
+}
+
+
+/* Links */
+a:hover { color: hotpink; }
+a {
+    color: rgb(253, 212, 243);
+    font-weight: 600;
+}
+
+/* Text attributes */
+.center { text-align:center; }
+.green-text { color: green; }
+.red-text { color: darkred; }
+.blue-text { color: darkslateblue; }
+
+.muted { opacity: 0.7; }
+
+.special-text {
+    animation: spin 18s linear infinite !important; 
+    color: hsl(var(--hue) 60% 40%) !important;
+    font-weight: bold !important;
+}
+
+.img-text {
+    color: grey;
+    font-size: smaller;
+    text-align: center;
+}
+
+/* Pivnoy_Chel at the bottom - cool.html */
+.scene {
+    font-size: 24px;
+  
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    
+    perspective: 400px;
+    
+    * {
+      transform-style: preserve-3d;
+    }
+}
+  
+.layeredText {
+    --layers-count: 24;
+    --layer-offset: 0.8px;
+  
+    position: relative;
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    animation: wobble 12s infinite linear;
+    
+    span {
+      color: black;
+      text-shadow: 0 0 0.1em #003;
+    }
+    
+    .layers, .layer {
+      position: absolute;
+      inset: 0;
+    }
+  
+    .layer {
+      --n: calc(var(--i) / var(--layers-count));
+  
+      transform: translateZ(calc(var(--i) * var(--layer-offset)));
+      color: hsl(280 100% calc(var(--n) * 88%));
+    }
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+thead {
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+}
+
+th, td {
+    padding: .5rem 1rem;
+    vertical-align: center; 
+}
+
+tbody tr:nth-child(even) { background: var(--fill-even); }
+tbody tr:nth-child(odd) { background: var(--fill-odd); }
+tbody tr:hover { background: var(--hover); }
+
+/* Tables - Index Page */
+.link-table tbody td:nth-child(1) { width: 15%; }
+.link-table thead { display: none; }
+
+/* Tables - Rest of site */
+td:nth-child(1) { max-width: 5%; }
+td:nth-child(2) { width: 35%; word-break: break-word; }
+td:nth-child(3) { max-width: 140px; height: auto; }
+td:nth-child(4) { max-width: 5%; }
+td:nth-child(5) { max-width: 60%; }
+
+/* Scroll */
+::-webkit-scrollbar-thumb { border-radius: 0; }
+
+/* Glass wrapper for tables */
+.glass-border {
+    background: linear-gradient(to bottom, rgba(66, 66, 66, .2), rgba(39, 39, 39, .1));
+    border-radius: 6px;
+    border: 1px solid rgba(236, 242, 249, 0.349);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .8), inset -1px -1px 0 rgba(255, 255, 255, .2);
+    padding: 8px;
+}
+
+/* For header in revews */
+.table-head {
+    text-align: center;
+    padding: 0.2rem;
+    background: linear-gradient(to bottom, #cb60b3 0%,#ad1283 50%,#de47ac 100%);
 }

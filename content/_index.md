@@ -1,5 +1,6 @@
 ---
 title: xdd
+description: "☦ Lose 30 pounds and gain 5 cm, just click... ☦"
 ---
 
 {{< linktable title="Socials" >}}

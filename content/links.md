@@ -9,9 +9,10 @@ hidemeta: true
 
 ### Fun stuff {.center}
 * [FastHub.net](https://fasthub.net/)   | Online Apple text-to-speech software
-* [z0r.de](https://z0r.de)  | Ultimate Brainrot
+* [z0r.de](https://z0r.de/8044)  | Ultimate Brainrot
 * [Horror Gifs](https://horrorgifs.neocities.org)   | Very spooky GIFs and sounds o((⊙﹏⊙))o
-* [Wiby.me](https://wiby.me/)  | Funny search engine ヾ(•ω•`)o 
+* [Wiby.me](https://wiby.me/)  | Funny search engine ヾ(•ω•`)o
+* [Frutiger Aero](https://frutigeraeroarchive.org/resources) | Frutiger Aero Archive of cool stuff （￣︶￣）↗
   
 ### Games {.center}
 * [Myrient](https://myrient.erista.me/) | An archive of ROMs and other videogame related stuff
@@ -24,10 +25,6 @@ hidemeta: true
 * [Fan SH2 site](http://www.igotaletter.com/)   | A TON of SH2 related stuff ⁂ Make sure to check out their comparasion of [0.10](http://www.igotaletter.com/rarities/version10) to the release version  
   
 {{< column >}}
-
-### Other game links { .center }
-* [Ryu Ga Gotoku](https://ryu-ga-gotoku.com/one/)  | Official Ryu Ga Gotoku website  
-* [JunkerHQ](https://junkerhq.net/kojima.html)    | Scans of Kojima's games  
   
 ### Tech {.center}
 * [Microsoft Activation Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)    | You know Windows is free, right?  

@@ -11,27 +11,30 @@
   {{- $filtered := where $reviews "Params.tags" "intersect" (slice $tag) -}}
   {{- $filtered = sort $filtered "Date" "desc" -}}
 
-  <h2>{{ $tag }}</h2>
-  <table>
+  <div class="glass-border">
+    <h2 class="table-head">{{ $tag }}</h2>
 
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Name</th>
-        <th>Score</th>
-        <th>Review</th>
-      </tr>
-    </thead>
-    
-    <tbody>
-      {{- range $i, $p := $filtered -}}
+    <table>
+
+      <thead>
         <tr>
-          <td>{{ add $i 1  }}</td>
-          <td><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></td>
-          <td>{{ $p.Params.score | default "" }}</td>
-          <td>{{ $p.Plain | strings.Truncate 67 "..."}}<a href="{{ $p.RelPermalink }}"> click here!</a></td>
+          <th>#</th>
+          <th>Name</th>
+          <th>Score</th>
+          <th>Review</th>
         </tr>
-      {{- end -}}
-    </tbody>
-  </table>
+      </thead>
+      
+      <tbody>
+        {{- range $i, $p := $filtered -}}
+          <tr>
+            <td>{{ add $i 1  }}</td>
+            <td><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></td>
+            <td>{{ $p.Params.score | default "" }}</td>
+            <td>{{ $p.Plain | strings.Truncate 67 "..."}}<a href="{{ $p.RelPermalink }}"> click here!</a></td>
+          </tr>
+        {{- end -}}
+      </tbody>
+    </table>
+  </div>
 {{- end -}}

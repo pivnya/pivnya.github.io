@@ -1,4 +1,4 @@
-<section>
+<section class="glass-border">
     <h3 class="section-title">Latest Posts</h3>
     <ul>
     {{ range first 5 (where site.RegularPages "Type" "posts").ByDate.Reverse }}

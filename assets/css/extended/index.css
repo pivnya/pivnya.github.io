@@ -1,6 +1,7 @@
 .section-title {
     text-align: center;
-    margin: 0 0 1rem;
+    padding: 0.4rem;
+    background: linear-gradient(to bottom, #cb60b3 0%,#ad1283 50%,#de47ac 100%);
 }
 
 .index {
@@ -39,22 +40,21 @@
 
 .sideleft {
     display: grid;
-    gap: 2rem;
+    gap: 2.5rem;
 }
 
 .sideright {
     display: grid;
-    gap: 3rem;
+    gap: 1rem;
 }
 
 .sideright section {
-    padding-left: 1.25rem;
     border-radius: 8px;
     width: 100%;
 }
 
 .sideright ul {
-    margin: 0;
+    margin: 0.8rem;
     padding-inline-start: 1rem;
 }
 
