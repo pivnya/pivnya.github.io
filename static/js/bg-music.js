@@ -20,11 +20,11 @@ window.onload = function() {
       break;
 
     case "/links/":
-        console.log("dansi")
-        music.src = "/snd/bg-links.mp3";
-        music.volume = 0.6;
-        music.play().catch(err => console.log(err));
-        break;
+      console.log("dansi")
+      music.src = "/snd/bg-links.mp3";
+      music.volume = 0.6;
+      music.play().catch(err => console.log(err));
+      break;
 
     default:
       console.log("NO MUSIC ON THIS PAGE AHAHAHAHA")

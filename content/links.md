@@ -15,10 +15,11 @@ hidemeta: true
 * [Frutiger Aero](https://frutigeraeroarchive.org/resources) | Frutiger Aero Archive of cool stuff （￣︶￣）↗
   
 ### Games {.center}
-* [Myrient](https://myrient.erista.me/) | An archive of ROMs and other videogame related stuff
+* [CDromance](https://cdromance.org/) | WE ARE SO FUCKING BACK (ノ｀Д)ノ
 * [Vimm's Lair](https://vimm.net/)  | Another collection of ROMs (^・ω・^ )
 * [Abandonware](https://www.myabandonware.com/) | The best way to download Silent Hill 2
 * [BasedMods](https://basedmods.org/)   | Mods that were banned from NexusMods
+
   
 ### Silent Hill {.center}
 * [Guides, pictures, music of  Silent Hill 1-4](http://www.silenthillmedia.net/) 
