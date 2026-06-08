@@ -263,8 +263,8 @@ td:nth-child(5) { max-width: 60%; }
     padding: 8px;
 }
 
-/* For header in revews */
-.table-head {
+/* For header */
+.title {
     text-align: center;
     padding: 0.2rem;
     background: linear-gradient(to bottom, #cb60b3 0%,#ad1283 50%,#de47ac 100%);

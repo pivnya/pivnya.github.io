@@ -10,6 +10,7 @@ window.onload = function() {
     case "/":
       console.log("dansi")
       music.src = "/snd/bg-index.mp3";
+      music.volume = 0.3;
       music.play().catch(err => console.log(err));
       break;
 
@@ -22,7 +23,7 @@ window.onload = function() {
     case "/links/":
       console.log("dansi")
       music.src = "/snd/bg-links.mp3";
-      music.volume = 0.6;
+      music.volume = 0.1;
       music.play().catch(err => console.log(err));
       break;
 
