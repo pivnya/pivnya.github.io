@@ -163,6 +163,13 @@ blockquote {
     margin-inline-start: var(--space-4);
 }
 
+img,
+video,
+iframe {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
 /* ⁁ Utilities */
 .pole {
     background-size: 1000% 100%;
@@ -227,16 +234,19 @@ blockquote {
 @font-face {
     font-family: "Datatype";
     src: url("/fonts/Datatype.woff2") format("truetype");
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Quantico";
     src: url("/fonts/Quantico.woff2") format("truetype");
+    font-display: swap;
 }
 
 @font-face {
     font-family: "SyneMono";
     src: url("/fonts/SyneMono.woff2") format("truetype");
+    font-display: swap;
 }
 
 body {
@@ -250,6 +260,16 @@ body {
     font-size: 22pt;
 }
 
+.navigation {
+    font-family: Datatype;
+    font-size: 12pt;
+}
+
+.sitemap {
+    font-family: Datatype;
+}
+
 summary {
     font-family: SyneMono;
 }
+

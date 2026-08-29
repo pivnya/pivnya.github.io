@@ -11,17 +11,20 @@
 
     {{ $css := resources.Match "css/*.css" }}
     {{ $css := $css | resources.Concat "css/bundle.css" | minify | fingerprint }}
-    <link rel='stylesheet' type='text/css' href='{{ $css.RelPermalink }}'>
+    <link rel="preload" href="{{ $css.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="styles.css"></noscript>
+
+    <link rel="preload" as="font" href="/fonts/Datatype.woff2" type="font/woff2" crossorigin>
+    <link rel="preload" as="font" href="/fonts/Quantico.woff2" type="font/woff2" crossorigin>
+    <link rel="preload" as="font" href="/fonts/SyneMono.woff2" type="font/woff2" crossorigin>
 
     {{ $sounds := resources.Get "js/snd.js" | minify | fingerprint }}
+    {{ $button := resources.Get  "js/nav-open.js" | minify | fingerprint }}
     <!--
     {{ $music_player := resources.Get "js/bg-music.js" | minify | fingerprint }}
-    -->
-    {{ $button := resources.Get  "js/nav-open.js" | minify | fingerprint }}
-    <script src="{{ $sounds.RelPermalink }}" defer></script>
-    <!--
     <script src="{{ $music_player.RelPermalink }}" defer></script>
     -->
+    <script src="{{ $sounds.RelPermalink }}" defer></script>
     <script src="{{ $button.RelPermalink }}" defer></script>
 
     <link rel="icon" href="/favicon.ico">
