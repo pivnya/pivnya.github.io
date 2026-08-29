@@ -234,19 +234,19 @@ iframe {
 @font-face {
     font-family: "Datatype";
     src: url("/fonts/Datatype.woff2") format("truetype");
-    font-display: swap;
+    font-display: optional;
 }
 
 @font-face {
     font-family: "Quantico";
     src: url("/fonts/Quantico.woff2") format("truetype");
-    font-display: swap;
+    font-display: optional;
 }
 
 @font-face {
     font-family: "SyneMono";
     src: url("/fonts/SyneMono.woff2") format("truetype");
-    font-display: swap;
+    font-display: optional;
 }
 
 body {
