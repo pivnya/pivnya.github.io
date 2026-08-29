@@ -1,41 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Games on pivnya.cool</title>
-    <link>http://localhost:1313/tags/games/</link>
-    <description>Recent content in Games on pivnya.cool</description>
-    <generator>Hugo -- 0.149.1</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/games/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Crow Country Review</title>
-      <link>http://localhost:1313/posts/crow-country-review/</link>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/crow-country-review/</guid>
-      <description>&lt;h2 class=&#34;center&#34; id=&#34;part-i&#34;&gt;PART I &lt;/h2&gt;
-&lt;h3 class=&#34;center&#34; id=&#34;intro-&#34;&gt;INTRO ╰（‵□′）╯&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Wee-woo wee-woo ╚(•⌂•)╝&lt;/strong&gt;&lt;br&gt;
-A Survival Horror game came out in 2024 Anno Domini that doesn&amp;rsquo;t copy the PS1 graphics?&lt;/p&gt;
-&lt;p&gt;Did someone actually think to use a unique style instead of jerking off to shaky polygons?&lt;br&gt;
-With that kind of style, the game looks more like a lawsuit than a horror game.&lt;/p&gt;
-&lt;p class=&#34;img-text&#34;&gt;&lt;img alt=&#34;crow country&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/crow-review/logo.webp&#34;&gt;
-No shaky polygons (´･ω･`)?&lt;/p&gt;
-&lt;h2 class=&#34;center&#34; id=&#34;part-ii&#34;&gt;PART II&lt;/h2&gt;
-&lt;h3 class=&#34;center&#34; id=&#34;stepping-into-the-maddness-&#34;&gt;STEPPING INTO THE MADDNESS ╰（‵□′）╯&lt;/h3&gt;
-&lt;p&gt;Welcome to Crow Country Adventure Park. Our attractions include: red goo, notes, lots of dialogue, puzzles, backtracking, and a very large crow statue. Special Agent Mara Forest arrives in Crow Country of her own will. This is a game about bear traps, abominations, evil businessman, and unemployed protagonist.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Metal Gear MSX2 - Steam Port Review</title>
-      <link>http://localhost:1313/posts/metal-gear-review/</link>
-      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/metal-gear-review/</guid>
-      <description>&lt;h3 class=&#34;center&#34; id=&#34;part-i&#34;&gt;PART I &lt;/h3&gt;
-&lt;h4 class=&#34;center&#34; id=&#34;interlude-ω&#34;&gt;INTERLUDE (。・ω・。)&lt;/h4&gt;
-&lt;p&gt;In the current world, stricken by the greed of corporations, we have entered a consumerist paradise for the fans of Funko Pops™ and Reddit.&lt;/p&gt;
-&lt;p&gt;Industry geniuses such as Konami are ready to publish moldy products from 30 years ago onto the market out of fear and inability to create anything new, and to receive free money.&lt;/p&gt;
-&lt;p&gt;Metal Gear Master Collection is a glorified series of ports. For Metal Gear 1 and 2, they cut out an already existing port that was available in MGS 3 Subsistence on PS2, which apparently was a mobile port, and started selling them separately.&lt;br&gt;
-The game was included as a side content on a second disc for the game title!&lt;/p&gt;</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Games on pivnya.cool</title>
+		<link>http://localhost:1313/tags/games/</link>
+		<description>Recent content in Games on pivnya.cool</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+			<managingEditor>pivnoy_chel@pivnya.cool (pivnoy_chel)</managingEditor>
+		
+		
+			<webMaster>pivnoy_chel@pivnya.cool (pivnoy_chel)</webMaster>
+		
+		
+		
+			<lastBuildDate>Fri, 28 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/games/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Kane &amp; Lynch 2: Dog Days</title>
+				<link>http://localhost:1313/reviews/kane_and_lynch_dog_days/</link>
+				<pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate><author>pivnoy_chel@pivnya.cool (pivnoy_chel)</author>
+				<guid>http://localhost:1313/reviews/kane_and_lynch_dog_days/</guid>
+				<description>&lt;p&gt;My fucking god, this game is so cool. It really draws you in, giving you an unforgettable experience. I can&amp;rsquo;t think of any other game that can evoke so many emotions in such a little timespan. Just three unforgettable hours of brutality, misery, loss, and a feeling of loneliness. I haven&amp;rsquo;t played the first instalment, &lt;strong&gt;Kane &amp;amp; Lynch: Dead Men&lt;/strong&gt;, but I don&amp;rsquo;t think that has had much of an impact on my experience with the second one.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Crow Country</title>
+				<link>http://localhost:1313/reviews/crow_country/</link>
+				<pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate><author>pivnoy_chel@pivnya.cool (pivnoy_chel)</author>
+				<guid>http://localhost:1313/reviews/crow_country/</guid>
+				<description>&lt;p&gt;My disappointment of the year. This game was praised from every corner of the WWW, but after only 2 years, it appears that everyone has forgotten about it.&lt;/p&gt;&#xA;&lt;p&gt;I want to start with the good, and the reason why I bought this game. Visuals. Finally, someone stopped jerking off to &lt;strong&gt;PlayStation 1&lt;/strong&gt; polygons and took the inspiration from &lt;strong&gt;N64&lt;/strong&gt;. The visuals are very cute!&lt;/p&gt;&#xA;&lt;p&gt;Unfortunately, the developers decided to fuck this up by making them low resolution. The beautiful models are smeared with a pixelation, the result of which is that you stop paying attention to the surroundings and everything turns into a pixelated mess if you play long enough.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Metal Gear</title>
+				<link>http://localhost:1313/reviews/metal_gear/</link>
+				<pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate><author>pivnoy_chel@pivnya.cool (pivnoy_chel)</author>
+				<guid>http://localhost:1313/reviews/metal_gear/</guid>
+				<description>&lt;p&gt;It&amp;rsquo;s a classic stealth action adventure that was ported to &lt;strong&gt;Steam&lt;/strong&gt; in &lt;strong&gt;MGS Vol. 1 Collection&lt;/strong&gt; in 2023. Despite that, this game was ported to nearly every console, except maybe PS2, LOL.&lt;/p&gt;&#xA;&lt;p&gt;This time, Konami decided to get more money from &lt;em&gt;gaijins&lt;/em&gt; by publishing it under the price tag on Steam. Perhaps gambling doesn&amp;rsquo;t give them enough money, and they decided to milk all of their franchises with re-releases and remasters. The same way they are raping the corpse of Silent Hill.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

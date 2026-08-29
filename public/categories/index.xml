@@ -1,19 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Categories on pivnya.cool</title>
-    <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on pivnya.cool</description>
-    <generator>Hugo -- 0.149.1</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Reviews</title>
-      <link>http://localhost:1313/categories/reviews/</link>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/reviews/</guid>
-      <description></description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>All of the categories on pivnya.cool</title>
+		<link>http://localhost:1313/categories/</link>
+		<description>Recent content in All of the categories on pivnya.cool</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+			<managingEditor>pivnoy_chel@pivnya.cool (pivnoy_chel)</managingEditor>
+		
+		
+			<webMaster>pivnoy_chel@pivnya.cool (pivnoy_chel)</webMaster>
+		
+		
+		
+			<lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Blog</title>
+				<link>http://localhost:1313/categories/blog/</link>
+				<pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate><author>pivnoy_chel@pivnya.cool (pivnoy_chel)</author>
+				<guid>http://localhost:1313/categories/blog/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Media Log</title>
+				<link>http://localhost:1313/categories/media-log/</link>
+				<pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate><author>pivnoy_chel@pivnya.cool (pivnoy_chel)</author>
+				<guid>http://localhost:1313/categories/media-log/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Reviews</title>
+				<link>http://localhost:1313/categories/reviews/</link>
+				<pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate><author>pivnoy_chel@pivnya.cool (pivnoy_chel)</author>
+				<guid>http://localhost:1313/categories/reviews/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>

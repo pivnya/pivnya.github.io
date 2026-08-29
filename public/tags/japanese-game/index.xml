@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Japanese Game on pivnya.cool</title>
+		<link>http://localhost:1313/tags/japanese-game/</link>
+		<description>Recent content in Japanese Game on pivnya.cool</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+			<managingEditor>pivnoy_chel@pivnya.cool (pivnoy_chel)</managingEditor>
+		
+		
+			<webMaster>pivnoy_chel@pivnya.cool (pivnoy_chel)</webMaster>
+		
+		
+		
+			<lastBuildDate>Thu, 27 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/japanese-game/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Metal Gear</title>
+				<link>http://localhost:1313/reviews/metal_gear/</link>
+				<pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate><author>pivnoy_chel@pivnya.cool (pivnoy_chel)</author>
+				<guid>http://localhost:1313/reviews/metal_gear/</guid>
+				<description>&lt;p&gt;It&amp;rsquo;s a classic stealth action adventure that was ported to &lt;strong&gt;Steam&lt;/strong&gt; in &lt;strong&gt;MGS Vol. 1 Collection&lt;/strong&gt; in 2023. Despite that, this game was ported to nearly every console, except maybe PS2, LOL.&lt;/p&gt;&#xA;&lt;p&gt;This time, Konami decided to get more money from &lt;em&gt;gaijins&lt;/em&gt; by publishing it under the price tag on Steam. Perhaps gambling doesn&amp;rsquo;t give them enough money, and they decided to milk all of their franchises with re-releases and remasters. The same way they are raping the corpse of Silent Hill.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

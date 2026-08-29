@@ -3,28 +3,76 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/crow-country-review/</loc>
-    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/games/</loc>
-    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/reviews/</loc>
-    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2026-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/blog/</loc>
+    <lastmod>2026-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hugo/</loc>
+    <lastmod>2026-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/papermod/</loc>
+    <lastmod>2026-08-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/metal-gear-review/</loc>
-    <lastmod>2026-02-05T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/web-development/</loc>
+    <lastmod>2026-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/log/movies/boiling_point/</loc>
+    <lastmod>2026-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/chinese-movie/</loc>
+    <lastmod>2026-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/games/</loc>
+    <lastmod>2026-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/log/movies/hard_boiled/</loc>
+    <lastmod>2026-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/japanese-movie/</loc>
+    <lastmod>2026-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reviews/kane_and_lynch_dog_days/</loc>
+    <lastmod>2026-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/log/</loc>
+    <lastmod>2026-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/media-log/</loc>
+    <lastmod>2026-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/movie/</loc>
+    <lastmod>2026-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/reviews/</loc>
+    <lastmod>2026-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reviews/</loc>
+    <lastmod>2026-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/western-game/</loc>
+    <lastmod>2026-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reviews/crow_country/</loc>
+    <lastmod>2026-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/european-game/</loc>
+    <lastmod>2026-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/japanese-game/</loc>
+    <lastmod>2026-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reviews/metal_gear/</loc>
+    <lastmod>2026-08-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
@@ -32,10 +80,12 @@
   </url><url>
     <loc>http://localhost:1313/links/</loc>
   </url><url>
-    <loc>http://localhost:1313/mods/</loc>
+    <loc>http://localhost:1313/credits/</loc>
   </url><url>
-    <loc>http://localhost:1313/reviews/</loc>
+    <loc>http://localhost:1313/info/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>http://localhost:1313/sites/</loc>
+  </url><url>
+    <loc>http://localhost:1313/sitemap/</loc>
   </url>
 </urlset>
