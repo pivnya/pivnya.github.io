@@ -11,7 +11,7 @@ If you have found any mistakes, unoptimised behaviour, or anything that could be
 
 {{% mdblock %}}
 ## Old site
-Here are screenshots of how the site looked until **2026/08/30**, when it was updated.  
+Here are screenshots of how the site looked until **2026/08/29**, when it was updated.  
   
 {{< columns >}}
 {{< image src="oldsite_home.png" alt="Home page of my old site" height=200 style="" >}}
