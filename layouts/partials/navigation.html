@@ -1,0 +1,49 @@
+<div class="navigation">
+    <button id="nav-button" class="nav-button">
+        .open
+    </button>
+
+    <div id="nav-menu" class="nav-menu">
+        <div class="logo">
+            {{ partial "navigation/logo.html" . }}
+        </div>
+
+        {{ partial "navigation/links.html" . }}
+
+        <div class="nav-snd">
+            <button id="snd-btn">
+                <span id="snd-btn-state">.sounds off</span>
+                <span id="snd-btn-sub"></span>
+            </button>
+        </div>
+
+        <!--
+        <div class="player">
+            <div class="player-content string player-border top">
+                <div class="marquee">
+                    <span id="now-playing">Currently playing</span>
+                </div>
+            </div>
+
+            <div class="player-content string player-border bottom">
+                <div id="current-time">00:00</div>
+                <div id="total-duration">00:00</div>
+            </div>
+
+            <div class="player-buttons">
+                <button id="prev-track" onclick="prevTrack()">.prev</button>
+                <button id="play" onclick="playTrack()">.play</button>
+                <button id="pause" onclick="pauseTrack()">.pause</button>
+                <button id="next-track" onclick="nextTrack()">.next</button>
+            </div>
+
+            <div class="player-buttons">
+                <button id="dcs-snd" onclick="decVolume()">.snd-</button>
+                <div class="player-nya">
+                    (。・ω・。)
+                </div>
+                <button id="inc-snd" onclick="incVolume()">.snd+</button>
+            </div>
+        </div>
+    </div> -->
+</div>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+
+<head>
+    <title>{{ if not .IsHome }}{{ .Title | title }} | {{ end }}{{ .Site.Title }}</title>
+
+    <link rel="canonical" href="{{ .Permalink  }}">
+    {{ with .OutputFormats.Get "rss" }}
+        {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+    {{ end }}
+
+    {{ $css := resources.Match "css/*.css" }}
+    {{ $css := $css | resources.Concat "css/bundle.css" | minify | fingerprint }}
+    <link rel='stylesheet' type='text/css' href='{{ $css.RelPermalink }}'>
+
+    {{ $sounds := resources.Get "js/snd.js" | minify | fingerprint }}
+    <!--
+    {{ $music_player := resources.Get "js/bg-music.js" | minify | fingerprint }}
+    -->
+    {{ $button := resources.Get  "js/nav-open.js" | minify | fingerprint }}
+    <script src="{{ $sounds.RelPermalink }}" defer></script>
+    <!--
+    <script src="{{ $music_player.RelPermalink }}" defer></script>
+    -->
+    <script src="{{ $button.RelPermalink }}" defer></script>
+
+    <link rel="icon" href="/favicon.ico">
+
+    <meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}">
+
+    {{ if isset .Params "tags" }}
+    <meta name="keywords" content="{{ with .Params.tags }}{{ delimit . " , " }}{{ end }}">
+    {{ end -}}
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            {{ partial "navigation.html" . }}
+        </aside>
+
+        <main class="main">
+            <div class="main-border">
+                {{ block "main" . }}
+                {{ .Content }}
+                {{ end }}
+            </div>
+
+            <footer>
+                <span>&copy; 2025-{{ now.Year }} <a href="{{ .Site.BaseURL }}">{{ site.Title }}</a></span>
+            </footer>
+        </main>
+    </div>
+</body>
+
+</html>

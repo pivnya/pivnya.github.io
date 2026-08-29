@@ -1,0 +1,23 @@
+.sitemap {
+	border: var(--border-tmprimary);
+	background: var(--smprimary);
+	overflow: auto;
+
+    font-family: Datatype;
+    font-size: 12pt;
+}
+
+.sitemap li {
+	list-style-type: none;
+}
+
+.sitemap ul ul,
+.sitemap ul {
+	margin-left: var(--space-2);
+}
+
+.sitemap .title {
+	text-align: center;
+	padding: var(--space-1);
+	background: linear-gradient(to bottom, var(--mprimary) 0, var(--mprimary) 60%, var(--smprimary) 100%);
+}

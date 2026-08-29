@@ -1,19 +1,72 @@
 {{ define "main" }}
-  <div class="index">
-
-  {{ partial "index/index-profile.html" . }}
-
-    <div class="index-grid">
-      <div class="sideleft">
-        {{ with .Content }}
-            {{ . }}
+<section class="index">
+    <div class="index-columns">
+        {{ with resources.Get "index/intro.yaml" | transform.Unmarshal }}
+        <div class="main-block">
+            <div>
+                <div class="title ">
+                    {{ .title }}
+                </div>
+                <div class="content-box">
+                    <div class="description">
+                        {{ with resources.Get "index/intro.md" }}
+                        {{ .Content | markdownify }}
+                        {{ end }}
+                    </div>
+                    <picture>
+                        <source srcset="{{ .avif }}" type="image/avif" />
+                        <img src="{{ .jpeg }}" alt="{{ .alt }}"/>
+                    </picture>
+                </div>
+            </div>
+        </div>
         {{ end }}
-      </div>
 
-      <aside class="sideright">
-          {{ partial "index/selected-posts.html" . }}
-          {{ partial "index/latest-posts.html" . }}
-      </aside>
+
+        <div class="updates-block">
+            <div class="updates-main">
+                <div class="title ">
+                    Updates
+                </div>
+
+                <ul class="description updates">
+                    {{ partial "index/updates.html" . }}
+                </ul>
+            </div>
+
+            <div class="trivia">
+                {{ with resources.Get "index/trivia.yaml" | transform.Unmarshal }}
+                <div class="title ">
+                    {{ .title }}
+                </div>
+                <div class="description">
+                    {{ with resources.Get "index/trivia.md" }}
+                    {{ .Content | markdownify }}
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
     </div>
-  </div>
+
+    <hr>
+
+    <div class="banner">
+        <picture>
+            <source srcset="/img/index/lain_wp.avif" type="image/avif" />
+            <img src="/img/index/lain_wp.jpeg" alt="Lain wide banner"/>
+        </picture>
+    </div>
+
+
+    <ul class="content-end">
+        <li>
+            <a href="/info">⁇ site info</a>
+        </li>
+        <li>
+            <a href="/credits">⁈ credits</a>
+        </li>
+    </ul>
+
+</section>
 {{ end }}

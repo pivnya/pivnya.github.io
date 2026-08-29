@@ -1,0 +1,228 @@
+:root {
+    --pc-color: rgb(140,170,230);
+    --pc-color-20: rgb(from var(--pc-color) r g b / 20%);
+    --pc-border: 1px solid var(--pc-color);
+
+    --xbox-color: rgb(14,122,13);
+    --xbox-color-20: rgb(from var(--xbox-color) r g b / 20%);
+    --xbox-border: 1px solid var(--xbox-color);
+
+    --psx-color: rgb(197,193,192);
+    --psx-color-20: rgb(from var(--psx-color) r g b / 20%);
+    --psx-border: 1px solid var(--psx-color);
+
+    --ps2-color: rgb(82, 155, 250);
+    --ps2-color-20: rgb(from var(--ps2-color) r g b / 20%);
+    --ps2-border: 1px solid var(--ps2-color);
+
+    --ps3-color: rgb(0, 111, 205);
+    --ps3-color-20: rgb(from var(--ps3-color) r g b / 20%);
+    --ps3-border: 1px solid var(--ps3-color);
+}
+
+
+.game-card {
+    display: flex;
+    height: 280px;
+
+    background: var(--smprimary);
+    border: var(--border-tmprimary);
+    filter: drop-shadow(2px 2px 5px var(--smprimary));
+}
+
+.game-card:not(:last-child) {
+    margin-bottom: var(--space-4);
+}
+
+.game-card picture {
+    flex-shrink: 0;
+    margin: var(--space-2);
+}
+
+.game-card img {
+    width: 190px;
+    height: 260px;
+    object-fit: cover;
+    align-self: center;
+}
+
+.game-card .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: var(--space-2);
+    border-left: var(--border-tmprimary);
+}
+
+.game-card .content>*:not(:last-child) {
+    margin-bottom: var(--space-2);
+}
+
+.game-card .title {
+    padding: var(--space-2);
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    text-transform: none;
+    text-align: center;
+    text-shadow: 2px 2px 3px var(--tmprimary);
+    border-top-left-radius: 12px;
+}
+
+.game-card .title span {
+    text-transform: uppercase;
+}
+
+.game-card .description {
+    height: 100%;
+    padding: var(--space-2);
+    overflow-y: scroll;
+    border-bottom-left-radius: 12px;
+}
+
+.game-card .score {
+    padding: var(--space-2);
+    margin: var(--space-2);
+    margin-left: 0;
+
+    font-size: 0.75rem;
+    font-family: Datatype;
+    font-style: italic;
+
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: var(--space-1);
+    writing-mode: vertical-lr;
+
+    border: var(--border-aprimary);
+    background: var(--aprimary-20);
+}
+
+.game-card .score span {
+    font-size: 1rem;
+    font-style: normal;
+    writing-mode: sideways-lr;
+}
+
+/* PC style */
+.pc-background .title,
+.pc-background .description {
+    background: var(--pc-color-20);
+    border: var(--pc-border);
+}
+
+.pc-background .description {
+    scrollbar-color: var(--pc-color) var(--pc-color-20);
+}
+
+.pc-background .title span {
+    color: var(--pc-color);
+    text-shadow: 2px 2px 3px var(--pc-color-20);
+}
+
+/* XBOX style */
+.xbox-background .title,
+.xbox-background .description {
+    background: var(--xbox-color-20);
+    border: var(--xbox-border);
+}
+
+.xbox-background .description {
+    scrollbar-color: var(--xbox-color) var(--xbox-color-20);
+}
+
+.xbox-background .title span {
+    color: var(--xbox-color);
+    text-shadow: 2px 2px 3px var(--xbox-color-20);
+}
+
+/* PlayStation styles */
+/* PSX */
+.psx-background .title,
+.psx-background .description {
+    background: var(--psx-color-20);
+    border: var(--psx-border);
+}
+
+.psx-background .description {
+    scrollbar-color: var(--psx-color) var(--psx-color-20);
+}
+
+.psx-background .title span {
+    color: var(--psx-color);
+    text-shadow: 2px 2px 3px var(--psx-color-20);
+}
+
+/* PS2 */
+.ps2-background .title,
+.ps2-background .description {
+    background: var(--ps2-color-20);
+    border: var(--ps2-border);
+}
+
+.ps2-background .description {
+    scrollbar-color: var(--ps2-color) var(--ps2-color-20);
+}
+
+.ps2-background .title span {
+    color: var(--ps2-color);
+    text-shadow: 2px 2px 3px var(--ps2-color-20);
+}
+
+/* PS3 */
+.ps3-background .title,
+.ps3-background .description {
+    background: var(--ps3-color-20);
+    border: var(--ps3-border);
+}
+
+.ps3-background .description {
+    scrollbar-color: var(--ps3-color) var(--ps3-color-20);
+}
+
+.ps3-background .title span {
+    color: var(--ps3-color);
+    text-shadow: 2px 2px 3px var(--ps3-color-20);
+}
+
+
+@media (max-width:1100px) {
+    .game-card .title {
+        font-size: 1rem;
+    }
+
+    .game-card .score {
+        padding: var(--space-1);
+        margin: var(--space-1);
+    }
+}
+
+@media (max-width:700px) {
+    .game-card {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .game-card picture {
+        align-self: center;
+    }
+    
+    .game-card img {
+        width: 100%;
+    }
+
+    .game-card .content {
+        border-left: 0;
+    }
+
+    .game-card .description {
+        height: 150px;
+    }
+
+    .game-card .score {
+        writing-mode: horizontal-tb;
+    }
+
+    .game-card .score span {
+        writing-mode: horizontal-tb;
+    }
+}

@@ -1,0 +1,32 @@
+{{ define "main" }}
+<div class="sitemap">
+    <div class="title">
+        {{ .Title }}
+    </div>
+    <ul>
+        {{ range .Site.Sections.ByTitle }}
+        <li>
+            <span>─</span>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+
+            {{ if eq .RelPermalink $.RelPermalink}}
+            <span> ← you are here </span>
+            {{ end }}
+
+            {{ if .Pages }}
+            <ul>
+                {{ $pages := .Pages.ByDate.Reverse }}
+                {{ range $index, $ := $pages }}
+                <li>
+                    <span>└</span>
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </li>
+                {{ end }}
+            </ul>
+            {{ end }}
+
+        </li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}

@@ -1,0 +1,23 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" }}
+{{ $title := .Get "title" }}
+
+{{ $width := .Get "width" }}
+{{ $height := .Get "height" }}
+
+{{ $style := .Get "style" }}
+
+{{ with .Page.Resources.Get $src }}
+
+{{ $avif := .Process "avif q65 lossy" }}
+
+<picture>
+    <source srcset="{{ $avif.RelPermalink }}" type="image/avif" />
+    <img src="{{ .RelPermalink }}" 
+    {{- with $alt }} alt="{{ $alt }}" {{- end }} 
+    {{- with $width }} width="{{ . }}" {{- end }} 
+    {{- with $height }} height="{{ . }}" {{- end }} 
+    {{- with $title }} title="{{ . }}" {{- end }} 
+    {{- with $style }} style="{{ . | safeCSS }}" {{- end }} />
+</picture>
+{{ end }}

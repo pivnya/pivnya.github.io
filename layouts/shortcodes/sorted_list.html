@@ -1,0 +1,82 @@
+{{ $section := .Get 0}} 
+
+{{ if eq $section "blog" }}
+{{ range sort (where .Site.RegularPages "Section" $section) "Date" "desc"  }}
+<div class="blog-card">
+    {{ $image := .Resources.GetMatch .Params.image_src }}
+    {{ with $image }}
+    {{ $avif := .Process "avif q65 lossy" }}
+    <picture>
+        <source srcset="{{ $avif.RelPermalink }}" type="image/avif" />
+        <img src="{{ .RelPermalink }}" alt="{{ path.BaseName . }}" />
+    </picture>
+    {{ end }}
+    <div class="content">
+        <div class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></a></div>
+        {{ with .GetTerms "tags" }}
+        <div class="taxonomy">
+            {{ range . }}
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+    {{ with .Date}}
+    <div class="date">
+        <span>{{ .Format "2" }}</span>—<span>{{ .Format "Jan" }}</span>—<span>{{ .Format "2006" }}</span>
+    </div>
+    {{ end }}
+</div>
+{{ end }}
+{{ end }}
+
+{{ if eq $section "reviews" }}
+{{ range sort (where .Site.RegularPages "Section" $section) "Date" "desc"  }}
+
+<div class="game-card {{ .Params.platform }}-background">
+    {{ $image := .Resources.GetMatch .Params.image_src }}
+    {{ with $image }}
+    {{ $avif := .Process "avif q65 lossy" }}
+    <picture>
+        <source srcset="{{ $avif.RelPermalink }}" type="image/avif" />
+        <img src="{{ .RelPermalink }}" alt="{{ path.BaseName . }}" />
+    </picture>
+    {{ end }}
+    <div class="content">
+        <div class="title">{{ .Title }} - <span>{{ .Params.platform }}</span> - {{ .Params.release_date }}</div>
+        <div class="description">{{ .Content }}</div>
+    </div>
+    <div class="score">score <span>{{ .Params.score }}</span></div>
+</div>
+{{ end }}
+{{ end }}
+
+{{ if eq $section "log" }}
+{{ range sort (where .Site.RegularPages "Section" $section) "Date" "desc"  }}
+<div class="media-card {{ .Params.media }}-background">
+    <div class="content">
+        <div class="left-content">
+            {{ $image := .Resources.GetMatch .Params.image_src }}
+            {{ with $image }}
+            {{ $avif := .Process "avif q65 lossy" }}
+            <picture>
+                <source srcset="{{ $avif.RelPermalink }}" type="image/avif" />
+                <img src="{{ .RelPermalink }}" alt="{{ path.BaseName . }}" />
+            </picture>
+            {{ end }}
+
+            <div class="premiere">{{ .Params.release_date }}</div>
+        </div>
+
+        <div class="right-content">
+            <div class="title">{{ .Title }}</div>
+            <div class="info">
+                <div class="description">{{ .Content }}</div>
+                <div class="taxonomy">{{ .Params.media }}</div>
+            </div>
+        </div>
+    </div>
+    <div class="score">score <span>{{ .Params.score }}</span></div>
+</div>
+{{ end }}
+{{ end }}

@@ -1,0 +1,136 @@
+.title {
+	text-shadow: 1px 1px 2px var(--tmprimary);
+}
+
+.taglist {
+	text-align: center;
+	clear: both;
+	padding: var(--space-2);
+}
+
+h1,
+h2,
+h3 {
+	text-align: center;
+	text-shadow: 1px 1px 2px var(--tmprimary);
+	font-family: SyneMono;
+}
+
+.single-block img, 
+.post img, 
+.list img {
+	border: var(--border-tmprimary);
+}
+
+.post-banner {
+	height: clamp(2rem, 12vw, 12rem); 
+	margin-top: var(--space-2);
+}
+
+.post-banner img {
+	width: 100%; 
+	height: 100%; 
+	object-fit: cover; 
+}
+
+/* Sites page */
+.sites-buttons {
+	display: flex;
+	justify-content: center;
+}
+
+.sites-buttons img {
+	border: 0;
+	width:88px;
+	height:31px;
+}
+
+
+/* Next/Previous partial */
+#prevart {
+	float: left;
+	text-align: left;
+}
+
+#nextart {
+	float: right;
+	text-align: right;
+}
+
+#nextart,
+#prevart {
+	max-width: 50%;
+	padding-top: var(--space-2);
+	padding-left: var(--space-2);
+	padding-right: var(--space-2);
+}
+
+/* Single block shortcode */
+.single-block {
+	border: var(--border-tmprimary);
+	background: var(--smprimary);
+	overflow: auto;
+}
+
+*>.single-block+.single-block {
+	margin-top: var(--space-4);
+}
+
+.single-block > .single-block {
+	margin: var(--space-2);
+}
+
+.single-block h1,
+.single-block h2,
+.single-block h3 {
+	margin-block-start: 0;
+	margin-block-end: 0;
+	padding: var(--space-1);
+	background: linear-gradient(to bottom, var(--mprimary) 0, var(--mprimary) 60%, var(--smprimary) 100%);
+}
+
+.single-block p {
+	padding: 0 var(--space-2);
+}
+
+.single-block img {
+	margin: var(--space-1);
+	max-width: calc(100% - var(--space-1)*2);
+}
+
+.single-block ul {
+	padding-inline-start: 1em;
+}
+
+.single-block li:not(:last-child) {
+    margin-bottom: var(--space-2);
+}
+
+/* Columns shortcode */
+.columns {
+	display: flex;
+	gap: 16px;
+	padding: 0 var(--space-2);
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.column {
+	display: flex;
+	flex: 1 1 0;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 1100px) {
+    .columns {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+	.columns {
+        flex-direction: column;
+        gap: 6px;
+    }
+}

@@ -1,0 +1,15 @@
+{{- define "main" }}
+<div class="single-block">
+    <h2>{{ .Title }}</h2>
+
+    {{ .Content }}
+
+    <ul>
+        {{ range sort .Data.Terms.Alphabetical }}
+        <li>
+            <a href="{{ .Page.Permalink }}"> {{ .Page.Title }} ({{ .Count }})</a>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+{{- end }}

@@ -1,0 +1,14 @@
+{{- define "main" }}
+<div class="single-block">
+    <h2>
+        {{ .Title }}
+    </h2>
+
+    <div class="content">
+        {{ .Content }}
+    </div>
+
+    {{ if .Param "nextprev" }}{{ partial "nextprev.html" . -}}{{ end -}}
+    {{ if .Param "taglist" }}{{ partial "taglist.html" . }}{{ end -}}
+</div>
+{{- end }}

@@ -1,0 +1,32 @@
+first_row:
+  title: ".personal"
+  items:
+    - name: "about"
+      link: "/about/"
+
+    - name: "contact_me"
+      link: "/contacts/"
+
+    - name: "blog"
+      link: "/blog/"
+
+second_row:
+  title: ".fun_stuff"
+  items:
+    - name: "cool_links"
+      link: "/links/"
+
+    - name: "game_reviews"
+      link: "/reviews/"
+
+    - name: "media_log"
+      link: "/log/"
+
+third_row:
+  title: ".misc"
+  items:
+    - name: "other_sites"
+      link: "/sites/"
+
+    - name: "site_map"
+      link: "/sitemap/"

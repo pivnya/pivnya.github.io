@@ -1,0 +1,5 @@
+{{ range $update := hugo.Data.index.updates }}
+<li class="item">
+    <span>{{ .name }}</span> {{ .description }}
+</li>
+{{ end }}

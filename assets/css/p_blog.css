@@ -1,0 +1,96 @@
+.blog-card {
+    display: flex;
+    height: 80px;
+
+    padding: var(--space-1);
+
+    background: var(--smprimary);
+    border: var(--border-tmprimary);
+    filter: drop-shadow(2px 2px 5px var(--smprimary));
+
+    text-align: center;
+}
+
+.blog-card:not(:last-child) {
+    margin-bottom: var(--space-4);
+}
+
+
+
+.blog-card img {
+    width: 220px;
+    height: 100%;
+    object-fit: cover;
+    align-self: center;
+}
+
+.blog-card .content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+
+.blog-card .title {
+    padding-top: var(--space-2);
+
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    
+    text-transform: none;
+    text-shadow: 2px 2px 3px var(--tmprimary);
+}
+
+.blog-card .title a {
+    color: var(--primary);
+}
+
+.blog-card .title a:hover {
+    text-decoration: underline;
+}
+
+.blog-card .date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: var(--space-1);
+
+    writing-mode: vertical-lr;
+    text-combine-upright: all;
+    font-size: 0.8rem;
+
+    border-left: var(--border-tmprimary);
+    height: 100%;
+}
+
+.blog-card .taxonomy {
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+    gap: var(--space-4);
+
+    padding: var(--space-1);
+}
+
+.blog-card .taxonomy a {
+    color: var(--grey);
+}
+
+.blog-card .taxonomy a:hover {
+    color: var(--aprimary);
+}
+
+@media (max-width:1100px) {
+    .blog-card .title {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:700px) {
+
+
+    .blog-card img {
+        display: none;
+    }
+}

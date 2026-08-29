@@ -1,0 +1,234 @@
+:root {
+    --movie-color: rgb(73, 79, 85);
+    --movie-color-20: rgb(from var(--movie-color) r g b / 20%);
+    --movie-border: 1px solid var(--movie-color);
+
+    --series-color: rgb(255,165,0);
+    --series-color-20: rgb(from var(--series-color) r g b / 20%);
+    --series-border: 1px solid var(--series-color);
+
+    --book-color: rgb(139,69,19);
+    --book-color-20: rgb(from var(--book-color) r g b / 20%);
+    --book-border: 1px solid var(--book-color);
+
+    --anime-color: rgb(255,153,153);
+    --anime-color-20: rgb(from var(--anime-color) r g b / 20%);
+    --anime-border: 1px solid var(--anime-color);
+
+    --manga-color: rgb(250,214,165);
+    --manga-color-20: rgb(from var(--manga-color) r g b / 20%);
+    --manga-border: 1px solid var(--manga-color);
+}
+
+.media-card {
+    height: 100%;
+
+    background: var(--smprimary);
+    border: var(--border-tmprimary);
+    filter: drop-shadow(2px 2px 5px var(--smprimary));
+}
+
+.media-card:not(:last-child) {
+    margin-bottom: var(--space-4);
+}
+
+.media-card .content {
+    display: flex;
+}
+
+.media-card .left-content,
+.media-card .right-content {
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-2);
+}
+
+.media-card .right-content>*:not(:last-child) {
+    margin-bottom: var(--space-2);
+}
+
+/* Left -image- side */
+
+.media-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    align-self: center;
+}
+
+.media-card .premiere {
+    padding: var(--space-1);
+    text-align: center;
+
+    border: var(--border-tmprimary);
+    background-color: var(--grey-20);
+}
+
+/* Right -text- side */
+.media-card .right-content {
+    width: 100%;
+    border-left: var(--border-tmprimary);
+    padding: var(--space-2);
+}
+
+.media-card .title {
+    padding: var(--space-2);
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    text-transform: none;
+    text-align: center;
+    text-shadow: 2px 2px 3px var(--tmprimary);
+    border-top-left-radius: 12px;
+}
+
+.media-card .info {
+    display: flex;
+    flex-direction: row;
+}
+
+.media-card .description {
+    height: 180px;
+    width: 100%;
+    padding: var(--space-2);
+    overflow-y: scroll;
+    border-bottom-left-radius: 12px;
+}
+
+.media-card .taxonomy {
+    padding: var(--space-1);
+
+    font-family: Datatype;
+    font-style: italic;
+
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: var(--space-2);
+    writing-mode: vertical-lr;
+}
+
+/* Score */
+.media-card .score {
+    padding: var(--space-1);
+
+    font-size: 0.75rem;
+    font-family: Datatype;
+    font-style: italic;
+
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: var(--space-4);
+
+    border-top: var(--border-aprimary);
+    background: var(--aprimary-20);
+}
+
+.media-card .score span {
+    letter-spacing: var(--space-2);
+    font-size: 1rem;
+    font-style: normal;
+}
+
+/* Movies */
+.movie-background .title,
+.movie-background .taxonomy,
+.movie-background .description {
+    border: var(--movie-border);
+    background-color: var(--movie-color-20);
+}
+
+.movie-background .taxonomy {
+    border-left: 0;
+}
+
+.movie-background .description {
+    scrollbar-color: var(--movie-color) var(--movie-color-20);
+}
+
+/* TV series */
+.series-background .title,
+.series-background .taxonomy,
+.series-background .description {
+    border: var(--series-border);
+    background-color: var(--series-color-20);
+}
+
+.series-background .taxonomy {
+    border-left: 0;
+}
+
+.series-background .description {
+    scrollbar-color: var(--series-color) var(--series-color-20);
+}
+
+/* Books */
+.book-background .title,
+.book-background .taxonomy,
+.book-background .description {
+    border: var(--book-border);
+    background-color: var(--book-color-20);
+}
+
+.book-background .taxonomy {
+    border-left: 0;
+}
+
+.book-background .description {
+    scrollbar-color: var(--book-color) var(--book-color-20);
+}
+
+/* Animes */
+.anime-background .title,
+.anime-background .taxonomy,
+.anime-background .description {
+    border: var(--anime-border);
+    background-color: var(--anime-color-20);
+}
+
+.anime-background .taxonomy {
+    border-left: 0;
+}
+
+.anime-background .description {
+    scrollbar-color: var(--anime-color) var(--anime-color-20);
+}
+
+/* Manga */
+.manga-background .title,
+.manga-background .taxonomy,
+.manga-background .description {
+    border: var(--manga-border);
+    background-color: var(--manga-color-20);
+}
+
+.manga-background .taxonomy {
+    border-left: 0;
+}
+
+.manga-background .description {
+    scrollbar-color: var(--manga-color) var(--manga-color-20);
+}
+
+@media (max-width:1100px) {
+    .media-card .title {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:700px) {
+    .media-card .content {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .media-card picture {
+        align-self: center;
+    }
+
+    .media-card .right-content {
+        border-left: 0;
+    }
+
+    .media-card .description {
+        height: 150px;
+    }
+}

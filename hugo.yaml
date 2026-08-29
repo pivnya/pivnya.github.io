@@ -1,0 +1,22 @@
+baseURL: "https://pivnya.cool/"
+title: pivnya.cool
+locale: "en-us"
+theme: "lugo"
+
+params:
+  nextprev: true
+  taglist: true
+  description: "Pivnoy chel's personal web-space where he rambles about various topics, his personal interests and videogames."
+
+  author:
+    name: "pivnoy_chel"
+    email: "pivnoy_chel@pivnya.cool"
+
+services:
+  rss:
+    limit: 20
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
