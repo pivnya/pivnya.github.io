@@ -11,10 +11,8 @@
 
     {{ $css := resources.Match "css/*.css" }}
     {{ $css := $css | resources.Concat "css/bundle.css" | minify | fingerprint }}
-    <link rel="preload" href="{{ $css.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="{{ $css.RelPermalink }}"></noscript>
+    <link rel="stylesheet" type="text/css" href="{{ $css.RelPermalink }}">
 
-    <link rel="preload" as="font" href="/fonts/Datatype.woff2" type="font/woff2" crossorigin>
     <link rel="preload" as="font" href="/fonts/Quantico.woff2" type="font/woff2" crossorigin>
     <link rel="preload" as="font" href="/fonts/SyneMono.woff2" type="font/woff2" crossorigin>
 
