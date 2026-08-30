@@ -195,7 +195,7 @@
     }
 }
 
-@media (max-width:700px) {
+@media (max-width:768px) {
     .game-card {
         flex-direction: column;
         height: auto;

@@ -87,9 +87,7 @@
     }
 }
 
-@media (max-width:700px) {
-
-
+@media (max-width:768px) {
     .blog-card img {
         display: none;
     }
