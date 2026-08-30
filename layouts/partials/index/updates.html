@@ -1,4 +1,4 @@
-{{ range $update := hugo.Data.index.updates }}
+{{ range sort hugo.Data.index.updates "name" "desc" }}
 <li class="item">
     <span>{{ .name }}</span> {{ .description }}
 </li>
