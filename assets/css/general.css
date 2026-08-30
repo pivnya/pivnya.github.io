@@ -251,6 +251,11 @@ body {
     font-size: 12pt;
 }
 
+.score,
+.taxonomy {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 summary {
     font-family: SyneMono;
 }

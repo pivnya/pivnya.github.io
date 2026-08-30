@@ -5,9 +5,9 @@ This is my land™ in the vastness of the dead WWW.
   
 Here I will share my interests, thoughts and consumed media.  
   
-I don't believe in the current internet *convenient communities* as a form of expressing yourself. They are filled with toxicity and normies, and condition people into thinking in a certain way that pleases the algorithm. This may be social media, imageboards, or basically any other place where a large community is built.  
+I want to truly express myself and my thoughts, and created this website to mitigate the side effects on my psyche from using social media and imageboards, their conditioning algorithms, and toxic environment.  
   
-Having your own website helps mitigate this.  
+I also want it to look pretty!  
   
 There will not be any comments, likes or Guestbook. **This is my personal space!** But you always can hit me up by email. You can learn more about how to contact me in the **'contact_me'** section o((>ω< ))o  
   

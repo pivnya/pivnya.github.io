@@ -39,7 +39,7 @@ I recommend checking out [this blog post](https://jakearchibald.com/2020/avif-ha
 
 {{% mdblock %}}
 ## Privacy Policy
-This website does not use its own [trackers, analytics, or cookies](https://digdeeper.love/articles/websites.xhtml). This site uses JavaScript for such things as sounds and the navigation sidebar button on smaller screens. The sounds use only local storage for retaining their state.  
+This website does not use its own [trackers, analytics, or cookies](https://digdeeper.love/articles/websites.xhtml). This site uses JavaScript for such things as sounds and the navigation sidebar button on smaller screens. The sounds use only local storage for retaining their state, which may be flagged as a cookie by some extensions.  
   
 As the site uses GitHub Pages for hosting, the visitor's IP address is collected by GitHub.  
 From the [GitHub Pages docs](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection):

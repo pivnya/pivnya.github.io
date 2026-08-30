@@ -97,7 +97,6 @@
 .media-card .taxonomy {
     padding: var(--space-1);
 
-    font-family: Datatype;
     font-style: italic;
 
     text-align: center;
@@ -111,7 +110,6 @@
     padding: var(--space-1);
 
     font-size: 0.75rem;
-    font-family: Datatype;
     font-style: italic;
 
     text-align: center;
