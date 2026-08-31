@@ -11,7 +11,7 @@ categories:
     - "Media log"
 tags:
     - "Movie"
-    - "Chinese movie"
+    - "Hong Kong movie"
 ---
 
 A cool movie about cool guys. The action scenes are very well choreographed and take up most of the running time, which is definitely beneficial. What else would you expect from a John Woo movie?  
