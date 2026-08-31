@@ -37,7 +37,7 @@ That's not all, I also really love *Symbolic* by *Death*, and the OST for Gran T
 ## Vidya  
 {{% image src="lain-pc.jpeg" alt="lain on pc" width="220" style="object-fit: cover; float:right;"%}}
 
-Most of my life was spent playing videogames. This medium is takes a lot of time, and can only be compared to books in time spent. I found them magical as a kid, and was always drawn to them from early childhood.  
+Most of my life was spent playing videogames. This medium takes a lot of time, and can only be compared to books in time spent. I found them magical as a kid, and was always drawn to them from early childhood.  
   
 My first console was PS1. I think it was around that time that I developed a love for the **horror** genre, after playing such games as *Echo Night* and *Silent Hill*. Or after reading a ton of creepypastas and other spooky stories. I think after all the Echo Night was first. Although, at that time I preferred the *Duke Nukem Time to Kill* and *Quake 2*, as I was too afraid of horrors.  
   
