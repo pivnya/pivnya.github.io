@@ -199,7 +199,7 @@ It's like Jet Set Radio, but a radio. Online radio with many stations playing mu
 {{% details summary="Archives" %}}
 * [90s Sample CDs](https://web.archive.org/web/20211101172459/https://nnty.fun/downloads/torrent/90s-sample-cds.torrent)  
 A torrent containing a collection of 500 GB stock sounds from the 90s.  
-* [Silent Hill 3 Complete Soundtrack](https://www.firebrandx.com/index.html)  
+* [Silent Hill 3 Complete Soundtrack](https://www.firebrandx.com/sh3completesoundtrack.html)  
 A collection of every track from Silent Hill 3. There are many other OST rips and guides for modding retro gaming consoles on [his site](https://www.firebrandx.com/).  
 {{% /details %}}
 {{% /mdblock %}}

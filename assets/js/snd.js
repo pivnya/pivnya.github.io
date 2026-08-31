@@ -2,6 +2,8 @@ let snd_active = false;
 
 document.addEventListener("DOMContentLoaded", () => {
     const links = document.querySelectorAll("a");
+    const externalLinks = document.querySelectorAll('a[href^="http"]');
+
     const snd_btn = document.getElementById("snd-btn");
     const btn_state_text = document.getElementById("snd-btn-state");
     const btn_sub_text = document.getElementById("snd-btn-sub");
@@ -65,8 +67,13 @@ document.addEventListener("DOMContentLoaded", () => {
             hover.play().catch(console.error);
         });
 
+
+    });
+
+    externalLinks.forEach(link => {
         link.addEventListener("click", () => {
             if (!snd_active) return;
+            if (link.hostname === location.hostname) return;
 
             click.currentTime = 0;
             click.play().catch(console.error);
