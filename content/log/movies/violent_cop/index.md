@@ -21,6 +21,6 @@ After rewatching the movie, my impression of it has become more positive. It ski
   
 The plot is about a vigilante policeman, and he's violent. A violent cop, if you will. It's a cliche, but because of Takeshi's approach to violence in his movies, and the down-to-earth nature of the narrative, you don't really notice it. There also isn't much comedy, which lends the narrative a sense of realism, making the standout moments in the movie all the more striking.  
   
-In my view, this movie explores the idea of nihilism. A cycle of violence, corruption, and turning a blind eye to cruelty, over and over again. The world doesn't change; everything repeats itself regardless of the consequences. The only outcome is death. Perhaps I'm looking at the themes explored superficially, but that was the impression I got from watching it.  
+This movie is very nihilistic. A cycle of violence, corruption, and turning a blind eye to cruelty, over and over again. The world doesn't change; everything repeats itself regardless of the consequences. The only outcome is death. Perhaps I'm looking at the themes explored superficially, but that was the impression I got from watching it.  
   
 The climax is very powerful, as is the ending itself. Everyone in this world has gone insane, and the cycle continues.  
