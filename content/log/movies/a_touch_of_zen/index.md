@@ -25,6 +25,6 @@ However, there isn't much action in the first part, and it really drags a lot. P
   
 The movie could have lasted only two hours, but that would have made for a very weak picture *imho*. It's the final hour, second chapter, that saves it. 
 The most interesting thing is that the main characters from the first half are barely involved at all!  
-It's actually about a supporting character who appears in just a few scenes in the first half *woooow*!  He is so cool!  
+It's actually about a supporting character who appears in just a few scenes in the first half!  
   
 The focus shifts away from the main characters, a new villain is introduced, an incredibly cool action scenes and a very powerful ending. That's why, if you are going to watch this movie at all, it's only for that reason, absolute KINO.  

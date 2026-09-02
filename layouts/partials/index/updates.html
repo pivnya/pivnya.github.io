@@ -1,5 +1,5 @@
-{{ range sort hugo.Data.index.updates "name" "desc" }}
+{{ range sort hugo.Data.index.updates "date" "desc" }}
 <li class="item">
-    <span>{{ .name }}</span> {{ .description }}
+    <span>{{ .date | time.Format "02/01/06" }}</span> {{ .description }}
 </li>
 {{ end }}
